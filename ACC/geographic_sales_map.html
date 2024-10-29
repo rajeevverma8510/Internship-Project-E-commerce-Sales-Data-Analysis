@@ -1,0 +1,3600 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9e16792adc2a6a855316b52788a08ae2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9e16792adc2a6a855316b52788a08ae2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9e16792adc2a6a855316b52788a08ae2 = L.map(
+                "map_9e16792adc2a6a855316b52788a08ae2",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d540a08e2f0a80a04b789a279e652117 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d540a08e2f0a80a04b789a279e652117.addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+            var marker_4216a23b18d0968adf122d5cba1da659 = L.marker(
+                [56.130366, -106.346771],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_d5dafadff016b2cce1359a29134c0f64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d9974a5ac40886aed777f74c8e98c81 = $(`<div id="html_8d9974a5ac40886aed777f74c8e98c81" style="width: 100.0%; height: 100.0%;">Country: Canada<br>Sales: $45468.00<br>Profit: $14890.70</div>`)[0];
+                popup_d5dafadff016b2cce1359a29134c0f64.setContent(html_8d9974a5ac40886aed777f74c8e98c81);
+            
+        
+
+        marker_4216a23b18d0968adf122d5cba1da659.bindPopup(popup_d5dafadff016b2cce1359a29134c0f64)
+        ;
+
+        
+    
+    
+            var marker_38d56b9a64b93478d89d55f77479ad30 = L.marker(
+                [13.193887, -59.543198],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_a639a18c8a7d2e8bef6d837d1adb53f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a6cd90e3c859758b5fdbf9e4a5eeada = $(`<div id="html_3a6cd90e3c859758b5fdbf9e4a5eeada" style="width: 100.0%; height: 100.0%;">Country: Barbados<br>Sales: $2686.00<br>Profit: $503.62</div>`)[0];
+                popup_a639a18c8a7d2e8bef6d837d1adb53f6.setContent(html_3a6cd90e3c859758b5fdbf9e4a5eeada);
+            
+        
+
+        marker_38d56b9a64b93478d89d55f77479ad30.bindPopup(popup_a639a18c8a7d2e8bef6d837d1adb53f6)
+        ;
+
+        
+    
+    
+            var marker_4c3d9262404eac2df6d02f2f466b2d52 = L.marker(
+                [21.521757, -77.781167],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_8ec68a30ff2432a9e2b1350ff470d13f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_315f2800f49dc0c0b6b42859115a392e = $(`<div id="html_315f2800f49dc0c0b6b42859115a392e" style="width: 100.0%; height: 100.0%;">Country: Cuba<br>Sales: $98737.00<br>Profit: $29046.51</div>`)[0];
+                popup_8ec68a30ff2432a9e2b1350ff470d13f.setContent(html_315f2800f49dc0c0b6b42859115a392e);
+            
+        
+
+        marker_4c3d9262404eac2df6d02f2f466b2d52.bindPopup(popup_8ec68a30ff2432a9e2b1350ff470d13f)
+        ;
+
+        
+    
+    
+            var marker_c43ebb81170141da014e26f607cc5a67 = L.marker(
+                [18.735693, -70.162651],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_b02879d1a949c66d4e97b87dbc4ddc15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9d0592d3824ae1f259f46ac76bbe872 = $(`<div id="html_c9d0592d3824ae1f259f46ac76bbe872" style="width: 100.0%; height: 100.0%;">Country: Dominican Republic<br>Sales: $94641.00<br>Profit: $3837.50</div>`)[0];
+                popup_b02879d1a949c66d4e97b87dbc4ddc15.setContent(html_c9d0592d3824ae1f259f46ac76bbe872);
+            
+        
+
+        marker_c43ebb81170141da014e26f607cc5a67.bindPopup(popup_b02879d1a949c66d4e97b87dbc4ddc15)
+        ;
+
+        
+    
+    
+            var marker_415c15769a5ec3750b9da92b7522140d = L.marker(
+                [16.995971, -62.067641],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_5e3c6f97468f1af3f95f8c98279e3e0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ffa95033a212ae34ff60d30bbc3fed4 = $(`<div id="html_1ffa95033a212ae34ff60d30bbc3fed4" style="width: 100.0%; height: 100.0%;">Country: Guadeloupe<br>Sales: $545.00<br>Profit: $240.50</div>`)[0];
+                popup_5e3c6f97468f1af3f95f8c98279e3e0a.setContent(html_1ffa95033a212ae34ff60d30bbc3fed4);
+            
+        
+
+        marker_415c15769a5ec3750b9da92b7522140d.bindPopup(popup_5e3c6f97468f1af3f95f8c98279e3e0a)
+        ;
+
+        
+    
+    
+            var marker_2f841cf237ba67ac32a5e37b22c6fcaf = L.marker(
+                [18.971187, -72.285215],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_8d4bcd9c0e8cf7e6ef085fc925e256d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe7b8b1456234b6b61c9a50aaf95a097 = $(`<div id="html_fe7b8b1456234b6b61c9a50aaf95a097" style="width: 100.0%; height: 100.0%;">Country: Haiti<br>Sales: $13416.00<br>Profit: $-1657.03</div>`)[0];
+                popup_8d4bcd9c0e8cf7e6ef085fc925e256d5.setContent(html_fe7b8b1456234b6b61c9a50aaf95a097);
+            
+        
+
+        marker_2f841cf237ba67ac32a5e37b22c6fcaf.bindPopup(popup_8d4bcd9c0e8cf7e6ef085fc925e256d5)
+        ;
+
+        
+    
+    
+            var marker_9d21998433ec3fc5673cf9b43e7cc214 = L.marker(
+                [18.109581, -77.297508],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_e209649b9e0d0f484f159e41fa5cd22f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d637ce05e5180448f294940013af439 = $(`<div id="html_5d637ce05e5180448f294940013af439" style="width: 100.0%; height: 100.0%;">Country: Jamaica<br>Sales: $4193.00<br>Profit: $1322.60</div>`)[0];
+                popup_e209649b9e0d0f484f159e41fa5cd22f.setContent(html_5d637ce05e5180448f294940013af439);
+            
+        
+
+        marker_9d21998433ec3fc5673cf9b43e7cc214.bindPopup(popup_e209649b9e0d0f484f159e41fa5cd22f)
+        ;
+
+        
+    
+    
+            var marker_4ead274cb9c146384c55c59ad4d31fb3 = L.marker(
+                [14.641528, -61.024174],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_ab36ecb94a63ab0dd5c4718e915baa9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_854844d74bc1cc0dbeedde4765595455 = $(`<div id="html_854844d74bc1cc0dbeedde4765595455" style="width: 100.0%; height: 100.0%;">Country: Martinique<br>Sales: $2350.00<br>Profit: $685.84</div>`)[0];
+                popup_ab36ecb94a63ab0dd5c4718e915baa9c.setContent(html_854844d74bc1cc0dbeedde4765595455);
+            
+        
+
+        marker_4ead274cb9c146384c55c59ad4d31fb3.bindPopup(popup_ab36ecb94a63ab0dd5c4718e915baa9c)
+        ;
+
+        
+    
+    
+            var marker_64c3a75a2ca7dbb8b92fa30fb7c3e4bf = L.marker(
+                [10.691803, -61.222503],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_2d35839e5c5aef7fd1efce9ffe107469 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d50c43b9a40da1a820cb0cb66ec252bc = $(`<div id="html_d50c43b9a40da1a820cb0cb66ec252bc" style="width: 100.0%; height: 100.0%;">Country: Trinidad and Tobago<br>Sales: $5748.00<br>Profit: $1447.14</div>`)[0];
+                popup_2d35839e5c5aef7fd1efce9ffe107469.setContent(html_d50c43b9a40da1a820cb0cb66ec252bc);
+            
+        
+
+        marker_64c3a75a2ca7dbb8b92fa30fb7c3e4bf.bindPopup(popup_2d35839e5c5aef7fd1efce9ffe107469)
+        ;
+
+        
+    
+    
+            var marker_e404e5f4d3d6d6165cae80f7dc34a8ec = L.marker(
+                [-11.202692, 17.873887],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_5cba3c2dc1be97d84bd84a131818e3b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7de1f732a4c3206c1dafc02f80ecb826 = $(`<div id="html_7de1f732a4c3206c1dafc02f80ecb826" style="width: 100.0%; height: 100.0%;">Country: Angola<br>Sales: $11886.00<br>Profit: $3927.05</div>`)[0];
+                popup_5cba3c2dc1be97d84bd84a131818e3b7.setContent(html_7de1f732a4c3206c1dafc02f80ecb826);
+            
+        
+
+        marker_e404e5f4d3d6d6165cae80f7dc34a8ec.bindPopup(popup_5cba3c2dc1be97d84bd84a131818e3b7)
+        ;
+
+        
+    
+    
+            var marker_0b0f6272b020b89f110156be5b7161e0 = L.marker(
+                [7.369722, 12.354722],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_8b6de1ceef15cf68917d70c39c2c926c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f95c97dd14d87dacd48e7582f765102c = $(`<div id="html_f95c97dd14d87dacd48e7582f765102c" style="width: 100.0%; height: 100.0%;">Country: Cameroon<br>Sales: $15071.00<br>Profit: $4379.95</div>`)[0];
+                popup_8b6de1ceef15cf68917d70c39c2c926c.setContent(html_f95c97dd14d87dacd48e7582f765102c);
+            
+        
+
+        marker_0b0f6272b020b89f110156be5b7161e0.bindPopup(popup_8b6de1ceef15cf68917d70c39c2c926c)
+        ;
+
+        
+    
+    
+            var marker_a853eb185f1ed1e5a0ae0ca0670dded7 = L.marker(
+                [6.611111, 20.939444],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_8944acda695c9a5e3aad01c59673d6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b6f611634c37e54f53c8bd7bcf068c5 = $(`<div id="html_2b6f611634c37e54f53c8bd7bcf068c5" style="width: 100.0%; height: 100.0%;">Country: Central African Republic<br>Sales: $1025.00<br>Profit: $208.60</div>`)[0];
+                popup_8944acda695c9a5e3aad01c59673d6f0.setContent(html_2b6f611634c37e54f53c8bd7bcf068c5);
+            
+        
+
+        marker_a853eb185f1ed1e5a0ae0ca0670dded7.bindPopup(popup_8944acda695c9a5e3aad01c59673d6f0)
+        ;
+
+        
+    
+    
+            var marker_05713ff304f8bfe423b8a080c750717f = L.marker(
+                [15.454166, 18.732207],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_5c47a0ea1805be9f43b3daf728a53207 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13a082b252a6014bd45c54d09b360bed = $(`<div id="html_13a082b252a6014bd45c54d09b360bed" style="width: 100.0%; height: 100.0%;">Country: Chad<br>Sales: $85.00<br>Profit: $30.60</div>`)[0];
+                popup_5c47a0ea1805be9f43b3daf728a53207.setContent(html_13a082b252a6014bd45c54d09b360bed);
+            
+        
+
+        marker_05713ff304f8bfe423b8a080c750717f.bindPopup(popup_5c47a0ea1805be9f43b3daf728a53207)
+        ;
+
+        
+    
+    
+            var marker_590f1b574ce0223817568ee6ce9f9754 = L.marker(
+                [-4.038333, 21.758664],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_5b4ff7d566f89ef2f25b163cc913c64c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33b551f2c01ff8057a2521fbf83ab431 = $(`<div id="html_33b551f2c01ff8057a2521fbf83ab431" style="width: 100.0%; height: 100.0%;">Country: Congo [DRC]<br>Sales: $37917.00<br>Profit: $11691.75</div>`)[0];
+                popup_5b4ff7d566f89ef2f25b163cc913c64c.setContent(html_33b551f2c01ff8057a2521fbf83ab431);
+            
+        
+
+        marker_590f1b574ce0223817568ee6ce9f9754.bindPopup(popup_5b4ff7d566f89ef2f25b163cc913c64c)
+        ;
+
+        
+    
+    
+            var marker_ce047fd2b551d21941ac16fe24d7a23a = L.marker(
+                [-0.228021, 15.827659],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_e14f54df909cfc6aee7ec2d6ebe25005 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_485e8f25edc622a8f12e518b05ea1633 = $(`<div id="html_485e8f25edc622a8f12e518b05ea1633" style="width: 100.0%; height: 100.0%;">Country: Congo [Republic]<br>Sales: $1185.00<br>Profit: $274.65</div>`)[0];
+                popup_e14f54df909cfc6aee7ec2d6ebe25005.setContent(html_485e8f25edc622a8f12e518b05ea1633);
+            
+        
+
+        marker_ce047fd2b551d21941ac16fe24d7a23a.bindPopup(popup_e14f54df909cfc6aee7ec2d6ebe25005)
+        ;
+
+        
+    
+    
+            var marker_f1d33a2e25737a3ddfea2fb612ea4778 = L.marker(
+                [1.650801, 10.267895],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_018d4f9934a0d3ed3c23ee2b44d938e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c31a2892a1923176544f860c7893da82 = $(`<div id="html_c31a2892a1923176544f860c7893da82" style="width: 100.0%; height: 100.0%;">Country: Equatorial Guinea<br>Sales: $42.00<br>Profit: $16.60</div>`)[0];
+                popup_018d4f9934a0d3ed3c23ee2b44d938e3.setContent(html_c31a2892a1923176544f860c7893da82);
+            
+        
+
+        marker_f1d33a2e25737a3ddfea2fb612ea4778.bindPopup(popup_018d4f9934a0d3ed3c23ee2b44d938e3)
+        ;
+
+        
+    
+    
+            var marker_00594ec7d5bb44b74cf95d764672091e = L.marker(
+                [-0.803689, 11.609444],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_108b3b4c4ce67ecde3d6676be6783c68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f8088917b082a52dd283131d6fcb5d1 = $(`<div id="html_8f8088917b082a52dd283131d6fcb5d1" style="width: 100.0%; height: 100.0%;">Country: Gabon<br>Sales: $1000.00<br>Profit: $380.15</div>`)[0];
+                popup_108b3b4c4ce67ecde3d6676be6783c68.setContent(html_8f8088917b082a52dd283131d6fcb5d1);
+            
+        
+
+        marker_00594ec7d5bb44b74cf95d764672091e.bindPopup(popup_108b3b4c4ce67ecde3d6676be6783c68)
+        ;
+
+        
+    
+    
+            var marker_172f74eadfb481ec4dd3df5795f7a325 = L.marker(
+                [17.189877, -88.49765],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_3d59f7345d6f72d751608c2eb631cfac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ae92f1c6acce7e2ac45aecf455afe34 = $(`<div id="html_1ae92f1c6acce7e2ac45aecf455afe34" style="width: 100.0%; height: 100.0%;">Country: Belize<br>Sales: $218.00<br>Profit: $55.80</div>`)[0];
+                popup_3d59f7345d6f72d751608c2eb631cfac.setContent(html_1ae92f1c6acce7e2ac45aecf455afe34);
+            
+        
+
+        marker_172f74eadfb481ec4dd3df5795f7a325.bindPopup(popup_3d59f7345d6f72d751608c2eb631cfac)
+        ;
+
+        
+    
+    
+            var marker_21ea0b0b8639704493a0864fd4743a90 = L.marker(
+                [9.748917, -83.753428],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_35af33841dcd8a165d7cae777272b488 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_766cda54b4dbb1287001781196e59053 = $(`<div id="html_766cda54b4dbb1287001781196e59053" style="width: 100.0%; height: 100.0%;">Country: Costa Rica<br>Sales: $1058.00<br>Profit: $398.50</div>`)[0];
+                popup_35af33841dcd8a165d7cae777272b488.setContent(html_766cda54b4dbb1287001781196e59053);
+            
+        
+
+        marker_21ea0b0b8639704493a0864fd4743a90.bindPopup(popup_35af33841dcd8a165d7cae777272b488)
+        ;
+
+        
+    
+    
+            var marker_e83bd9b63821a57851a2f5998facc351 = L.marker(
+                [13.794185, -88.89653],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_3cd0da349437da316d85b66c42b9b3c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e9e81b961e9422046aeda5009295f25 = $(`<div id="html_2e9e81b961e9422046aeda5009295f25" style="width: 100.0%; height: 100.0%;">Country: El Salvador<br>Sales: $94671.00<br>Profit: $28899.60</div>`)[0];
+                popup_3cd0da349437da316d85b66c42b9b3c1.setContent(html_2e9e81b961e9422046aeda5009295f25);
+            
+        
+
+        marker_e83bd9b63821a57851a2f5998facc351.bindPopup(popup_3cd0da349437da316d85b66c42b9b3c1)
+        ;
+
+        
+    
+    
+            var marker_3ba34234071e0167536a7153a7b66bce = L.marker(
+                [15.783471, -90.230759],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_0e76c63e0c90f83a4e995d6feb63dba1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98bbc74564ab5c7e65fbeeb758cb932b = $(`<div id="html_98bbc74564ab5c7e65fbeeb758cb932b" style="width: 100.0%; height: 100.0%;">Country: Guatemala<br>Sales: $58493.00<br>Profit: $16940.20</div>`)[0];
+                popup_0e76c63e0c90f83a4e995d6feb63dba1.setContent(html_98bbc74564ab5c7e65fbeeb758cb932b);
+            
+        
+
+        marker_3ba34234071e0167536a7153a7b66bce.bindPopup(popup_0e76c63e0c90f83a4e995d6feb63dba1)
+        ;
+
+        
+    
+    
+            var marker_b5c2d19fce4e2e9c5da3015dccd1a5a5 = L.marker(
+                [15.199999, -86.241905],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_6837e6f946aef3c8354ea45645a3db82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd22de07e040d8d1e6b97cd8bd5d3fe7 = $(`<div id="html_fd22de07e040d8d1e6b97cd8bd5d3fe7" style="width: 100.0%; height: 100.0%;">Country: Honduras<br>Sales: $95045.00<br>Profit: $-12451.70</div>`)[0];
+                popup_6837e6f946aef3c8354ea45645a3db82.setContent(html_fd22de07e040d8d1e6b97cd8bd5d3fe7);
+            
+        
+
+        marker_b5c2d19fce4e2e9c5da3015dccd1a5a5.bindPopup(popup_6837e6f946aef3c8354ea45645a3db82)
+        ;
+
+        
+    
+    
+            var marker_402b88b1518bb24ea3abec3b509c2b1f = L.marker(
+                [23.634501, -102.552784],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_bac836e6f9f6ad36dea5a002e628e5d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f75617862b5ed69ad7a164e5b5eb6a5f = $(`<div id="html_f75617862b5ed69ad7a164e5b5eb6a5f" style="width: 100.0%; height: 100.0%;">Country: Mexico<br>Sales: $336145.00<br>Profit: $79893.79</div>`)[0];
+                popup_bac836e6f9f6ad36dea5a002e628e5d5.setContent(html_f75617862b5ed69ad7a164e5b5eb6a5f);
+            
+        
+
+        marker_402b88b1518bb24ea3abec3b509c2b1f.bindPopup(popup_bac836e6f9f6ad36dea5a002e628e5d5)
+        ;
+
+        
+    
+    
+            var marker_3201922be7b24336751cf6e627adc766 = L.marker(
+                [12.865416, -85.207229],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_2a2bf3d41b3a2fa452eec8bcdd52a276 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_600dfa510f038c942aa6c0ec94eeb6f5 = $(`<div id="html_600dfa510f038c942aa6c0ec94eeb6f5" style="width: 100.0%; height: 100.0%;">Country: Nicaragua<br>Sales: $94115.00<br>Profit: $29856.86</div>`)[0];
+                popup_2a2bf3d41b3a2fa452eec8bcdd52a276.setContent(html_600dfa510f038c942aa6c0ec94eeb6f5);
+            
+        
+
+        marker_3201922be7b24336751cf6e627adc766.bindPopup(popup_2a2bf3d41b3a2fa452eec8bcdd52a276)
+        ;
+
+        
+    
+    
+            var marker_cde0a7fa6f3e9a7955a9974eb8897cbc = L.marker(
+                [8.537981, -80.782127],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_062a1e6bbe0bef86e41e4d53b42e1294 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70728d9886ff58de65218eb37239975a = $(`<div id="html_70728d9886ff58de65218eb37239975a" style="width: 100.0%; height: 100.0%;">Country: Panama<br>Sales: $49486.00<br>Profit: $-4574.01</div>`)[0];
+                popup_062a1e6bbe0bef86e41e4d53b42e1294.setContent(html_70728d9886ff58de65218eb37239975a);
+            
+        
+
+        marker_cde0a7fa6f3e9a7955a9974eb8897cbc.bindPopup(popup_062a1e6bbe0bef86e41e4d53b42e1294)
+        ;
+
+        
+    
+    
+            var marker_d54ad0af5a137f7f52b63f5a98331869 = L.marker(
+                [48.019573, 66.923684],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_9e9a1a8878971f03f771d87ac9f1e012 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a9da38f2ea5a7801ec624f50e7031b4 = $(`<div id="html_4a9da38f2ea5a7801ec624f50e7031b4" style="width: 100.0%; height: 100.0%;">Country: Kazakhstan<br>Sales: $12572.00<br>Profit: $-4907.15</div>`)[0];
+                popup_9e9a1a8878971f03f771d87ac9f1e012.setContent(html_4a9da38f2ea5a7801ec624f50e7031b4);
+            
+        
+
+        marker_d54ad0af5a137f7f52b63f5a98331869.bindPopup(popup_9e9a1a8878971f03f771d87ac9f1e012)
+        ;
+
+        
+    
+    
+            var marker_6b81e7f0110000c1cb103b463b8d52a4 = L.marker(
+                [41.20438, 74.766098],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_8112197a3fcd7d4e6d02010f7d0798c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91fdf7677b8e509619db93f9b905b555 = $(`<div id="html_91fdf7677b8e509619db93f9b905b555" style="width: 100.0%; height: 100.0%;">Country: Kyrgyzstan<br>Sales: $3521.00<br>Profit: $920.80</div>`)[0];
+                popup_8112197a3fcd7d4e6d02010f7d0798c4.setContent(html_91fdf7677b8e509619db93f9b905b555);
+            
+        
+
+        marker_6b81e7f0110000c1cb103b463b8d52a4.bindPopup(popup_8112197a3fcd7d4e6d02010f7d0798c4)
+        ;
+
+        
+    
+    
+            var marker_47b6c6a3d5b4bd63b037decb2c031264 = L.marker(
+                [38.861034, 71.276093],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_51fad5c60bd3d374c83954669c750ad5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78945c7e17b97c23d96830037ed8e84c = $(`<div id="html_78945c7e17b97c23d96830037ed8e84c" style="width: 100.0%; height: 100.0%;">Country: Tajikistan<br>Sales: $376.00<br>Profit: $-212.70</div>`)[0];
+                popup_51fad5c60bd3d374c83954669c750ad5.setContent(html_78945c7e17b97c23d96830037ed8e84c);
+            
+        
+
+        marker_47b6c6a3d5b4bd63b037decb2c031264.bindPopup(popup_51fad5c60bd3d374c83954669c750ad5)
+        ;
+
+        
+    
+    
+            var marker_b05df5d520fbdcc2baa0e4ebec645695 = L.marker(
+                [38.969719, 59.556278],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_ef196903272624f34d0547f3a6beceea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da87255c1d37e5f5b9393c7e498545e6 = $(`<div id="html_da87255c1d37e5f5b9393c7e498545e6" style="width: 100.0%; height: 100.0%;">Country: Turkmenistan<br>Sales: $1860.00<br>Profit: $-706.40</div>`)[0];
+                popup_ef196903272624f34d0547f3a6beceea.setContent(html_da87255c1d37e5f5b9393c7e498545e6);
+            
+        
+
+        marker_b05df5d520fbdcc2baa0e4ebec645695.bindPopup(popup_ef196903272624f34d0547f3a6beceea)
+        ;
+
+        
+    
+    
+            var marker_111fe722a9bf49cff24f3bcd25f3626c = L.marker(
+                [41.377491, 64.585262],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_3224cdb717b64623b5575e62ad979882 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70f1599cf486e5f890ec1b7de3364fb4 = $(`<div id="html_70f1599cf486e5f890ec1b7de3364fb4" style="width: 100.0%; height: 100.0%;">Country: Uzbekistan<br>Sales: $4468.00<br>Profit: $875.65</div>`)[0];
+                popup_3224cdb717b64623b5575e62ad979882.setContent(html_70f1599cf486e5f890ec1b7de3364fb4);
+            
+        
+
+        marker_111fe722a9bf49cff24f3bcd25f3626c.bindPopup(popup_3224cdb717b64623b5575e62ad979882)
+        ;
+
+        
+    
+    
+            var marker_933b5ab13d20dda2d274be369c2addbc = L.marker(
+                [37.09024, -95.712891],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_781b1258d00ce8d0a6cfed44f1d5847b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d173f59520c0182255275c6a373a1ba3 = $(`<div id="html_d173f59520c0182255275c6a373a1ba3" style="width: 100.0%; height: 100.0%;">Country: United States<br>Sales: $291250.00<br>Profit: $23920.77</div>`)[0];
+                popup_781b1258d00ce8d0a6cfed44f1d5847b.setContent(html_d173f59520c0182255275c6a373a1ba3);
+            
+        
+
+        marker_933b5ab13d20dda2d274be369c2addbc.bindPopup(popup_781b1258d00ce8d0a6cfed44f1d5847b)
+        ;
+
+        
+    
+    
+            var marker_263bfd3517e72fa54e7000aa8ce06045 = L.marker(
+                [-3.373056, 29.918886],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_de20008afac34c835e1bb198c76f4067 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42a11af66780b10b8ec97019f094602d = $(`<div id="html_42a11af66780b10b8ec97019f094602d" style="width: 100.0%; height: 100.0%;">Country: Burundi<br>Sales: $354.00<br>Profit: $53.10</div>`)[0];
+                popup_de20008afac34c835e1bb198c76f4067.setContent(html_42a11af66780b10b8ec97019f094602d);
+            
+        
+
+        marker_263bfd3517e72fa54e7000aa8ce06045.bindPopup(popup_de20008afac34c835e1bb198c76f4067)
+        ;
+
+        
+    
+    
+            var marker_468f30be2eb945c771fc79f70522c0a8 = L.marker(
+                [11.825138, 42.590275],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_2e277e3a70ca130606f6749ca04a10d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91badd485e63c89c43c1d32699c12748 = $(`<div id="html_91badd485e63c89c43c1d32699c12748" style="width: 100.0%; height: 100.0%;">Country: Djibouti<br>Sales: $922.00<br>Profit: $364.05</div>`)[0];
+                popup_2e277e3a70ca130606f6749ca04a10d4.setContent(html_91badd485e63c89c43c1d32699c12748);
+            
+        
+
+        marker_468f30be2eb945c771fc79f70522c0a8.bindPopup(popup_2e277e3a70ca130606f6749ca04a10d4)
+        ;
+
+        
+    
+    
+            var marker_7132a673328e0527b0ac7dda6c7ca0e3 = L.marker(
+                [15.179384, 39.782334],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_52631ca136e064ef06abb8d473fb570a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7efbaed01d462be320d488ee3b6c15f0 = $(`<div id="html_7efbaed01d462be320d488ee3b6c15f0" style="width: 100.0%; height: 100.0%;">Country: Eritrea<br>Sales: $231.00<br>Profit: $45.10</div>`)[0];
+                popup_52631ca136e064ef06abb8d473fb570a.setContent(html_7efbaed01d462be320d488ee3b6c15f0);
+            
+        
+
+        marker_7132a673328e0527b0ac7dda6c7ca0e3.bindPopup(popup_52631ca136e064ef06abb8d473fb570a)
+        ;
+
+        
+    
+    
+            var marker_9b5c2371203a02afdef71cf82ba239a1 = L.marker(
+                [9.145, 40.489673],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_ba9598e82fdf2de03da58b38e866c4d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6d6786d87d9e9d8eb32a509b16eb3fa = $(`<div id="html_d6d6786d87d9e9d8eb32a509b16eb3fa" style="width: 100.0%; height: 100.0%;">Country: Ethiopia<br>Sales: $1043.00<br>Profit: $478.70</div>`)[0];
+                popup_ba9598e82fdf2de03da58b38e866c4d6.setContent(html_d6d6786d87d9e9d8eb32a509b16eb3fa);
+            
+        
+
+        marker_9b5c2371203a02afdef71cf82ba239a1.bindPopup(popup_ba9598e82fdf2de03da58b38e866c4d6)
+        ;
+
+        
+    
+    
+            var marker_f74014a56ba7cf21d9bc64563343ede8 = L.marker(
+                [-0.023559, 37.906193],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_83ef63fdc63d4fd70ecb633109e69753 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab0143ff977ab165df0d663f2f8c3523 = $(`<div id="html_ab0143ff977ab165df0d663f2f8c3523" style="width: 100.0%; height: 100.0%;">Country: Kenya<br>Sales: $12867.00<br>Profit: $4430.20</div>`)[0];
+                popup_83ef63fdc63d4fd70ecb633109e69753.setContent(html_ab0143ff977ab165df0d663f2f8c3523);
+            
+        
+
+        marker_f74014a56ba7cf21d9bc64563343ede8.bindPopup(popup_83ef63fdc63d4fd70ecb633109e69753)
+        ;
+
+        
+    
+    
+            var marker_87c03023a90d8733b9da0aee9e61d937 = L.marker(
+                [-18.766947, 46.869107],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_d4c4ea37df17efb13962254fc113eb75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3425dbce027b06b03b9bccda0c13ad99 = $(`<div id="html_3425dbce027b06b03b9bccda0c13ad99" style="width: 100.0%; height: 100.0%;">Country: Madagascar<br>Sales: $5342.00<br>Profit: $1884.40</div>`)[0];
+                popup_d4c4ea37df17efb13962254fc113eb75.setContent(html_3425dbce027b06b03b9bccda0c13ad99);
+            
+        
+
+        marker_87c03023a90d8733b9da0aee9e61d937.bindPopup(popup_d4c4ea37df17efb13962254fc113eb75)
+        ;
+
+        
+    
+    
+            var marker_836856f78bd0f2144e784f7b0570e55d = L.marker(
+                [-13.254308, 34.301525],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_4c02f89d982c3c5cecf803906b97d6e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c176249e7a895998dbaf7582f24fa34 = $(`<div id="html_3c176249e7a895998dbaf7582f24fa34" style="width: 100.0%; height: 100.0%;">Country: Malawi<br>Sales: $1260.00<br>Profit: $504.00</div>`)[0];
+                popup_4c02f89d982c3c5cecf803906b97d6e0.setContent(html_3c176249e7a895998dbaf7582f24fa34);
+            
+        
+
+        marker_836856f78bd0f2144e784f7b0570e55d.bindPopup(popup_4c02f89d982c3c5cecf803906b97d6e0)
+        ;
+
+        
+    
+    
+            var marker_f0db262357ca48772c7c7e800930cea3 = L.marker(
+                [-18.665695, 35.529562],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_d7b08a7c02ecf14eae37360c69dda22d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efed1f78131bd9175598430b2c691d62 = $(`<div id="html_efed1f78131bd9175598430b2c691d62" style="width: 100.0%; height: 100.0%;">Country: Mozambique<br>Sales: $12159.00<br>Profit: $3906.95</div>`)[0];
+                popup_d7b08a7c02ecf14eae37360c69dda22d.setContent(html_efed1f78131bd9175598430b2c691d62);
+            
+        
+
+        marker_f0db262357ca48772c7c7e800930cea3.bindPopup(popup_d7b08a7c02ecf14eae37360c69dda22d)
+        ;
+
+        
+    
+    
+            var marker_09faafde61de91e4ee67db56bbe33b4c = L.marker(
+                [-1.940278, 29.873888],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_da83191dff946f5d4f70278cf1ab9c81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae20cca355954e6b593c3e0323f0fdf7 = $(`<div id="html_ae20cca355954e6b593c3e0323f0fdf7" style="width: 100.0%; height: 100.0%;">Country: Rwanda<br>Sales: $6291.00<br>Profit: $1100.30</div>`)[0];
+                popup_da83191dff946f5d4f70278cf1ab9c81.setContent(html_ae20cca355954e6b593c3e0323f0fdf7);
+            
+        
+
+        marker_09faafde61de91e4ee67db56bbe33b4c.bindPopup(popup_da83191dff946f5d4f70278cf1ab9c81)
+        ;
+
+        
+    
+    
+            var marker_a5da4030e177604bffd3f5c292a79bef = L.marker(
+                [5.152149, 46.199616],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_2e20d0a8efdcf6fd9b34a74c9dc54492 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be5dce0f586e312a6bfd74e5220c5568 = $(`<div id="html_be5dce0f586e312a6bfd74e5220c5568" style="width: 100.0%; height: 100.0%;">Country: Somalia<br>Sales: $2879.00<br>Profit: $892.80</div>`)[0];
+                popup_2e20d0a8efdcf6fd9b34a74c9dc54492.setContent(html_be5dce0f586e312a6bfd74e5220c5568);
+            
+        
+
+        marker_a5da4030e177604bffd3f5c292a79bef.bindPopup(popup_2e20d0a8efdcf6fd9b34a74c9dc54492)
+        ;
+
+        
+    
+    
+            var marker_3195b001881045f805b04faf8a47c323 = L.marker(
+                [12.862807, 30.217636],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_27cbacb4d8311cdda861e1f4716ec8bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46c91d6ec1f038f1a2529a1b2f20cde0 = $(`<div id="html_46c91d6ec1f038f1a2529a1b2f20cde0" style="width: 100.0%; height: 100.0%;">Country: Sudan<br>Sales: $83.00<br>Profit: $8.30</div>`)[0];
+                popup_27cbacb4d8311cdda861e1f4716ec8bf.setContent(html_46c91d6ec1f038f1a2529a1b2f20cde0);
+            
+        
+
+        marker_3195b001881045f805b04faf8a47c323.bindPopup(popup_27cbacb4d8311cdda861e1f4716ec8bf)
+        ;
+
+        
+    
+    
+            var marker_ad77bea0bee471c9719f31022dba8366 = L.marker(
+                [-6.369028, 34.888822],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_852212cbc8931ef123d880cf3c53e7dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa69592acf930ae2faf7ef75f5e6c879 = $(`<div id="html_fa69592acf930ae2faf7ef75f5e6c879" style="width: 100.0%; height: 100.0%;">Country: Tanzania<br>Sales: $16557.00<br>Profit: $4884.10</div>`)[0];
+                popup_852212cbc8931ef123d880cf3c53e7dd.setContent(html_fa69592acf930ae2faf7ef75f5e6c879);
+            
+        
+
+        marker_ad77bea0bee471c9719f31022dba8366.bindPopup(popup_852212cbc8931ef123d880cf3c53e7dd)
+        ;
+
+        
+    
+    
+            var marker_4d9407404ebe4caf5a0dc7c63927b8da = L.marker(
+                [1.373333, 32.290275],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_905604216b11ca09c775febc09a0d6b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57245190daf88ba78ef2a47f6578f5ba = $(`<div id="html_57245190daf88ba78ef2a47f6578f5ba" style="width: 100.0%; height: 100.0%;">Country: Uganda<br>Sales: $3129.00<br>Profit: $-1148.00</div>`)[0];
+                popup_905604216b11ca09c775febc09a0d6b0.setContent(html_57245190daf88ba78ef2a47f6578f5ba);
+            
+        
+
+        marker_4d9407404ebe4caf5a0dc7c63927b8da.bindPopup(popup_905604216b11ca09c775febc09a0d6b0)
+        ;
+
+        
+    
+    
+            var marker_563c43d1fc20f039187d9ebc3e8e207e = L.marker(
+                [-13.133897, 27.849332],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_d4b4a13176e74dea0bd5316afb9e0727 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d164c95172bcc8b67f8a950edf02e32 = $(`<div id="html_8d164c95172bcc8b67f8a950edf02e32" style="width: 100.0%; height: 100.0%;">Country: Zambia<br>Sales: $9998.00<br>Profit: $3803.35</div>`)[0];
+                popup_d4b4a13176e74dea0bd5316afb9e0727.setContent(html_8d164c95172bcc8b67f8a950edf02e32);
+            
+        
+
+        marker_563c43d1fc20f039187d9ebc3e8e207e.bindPopup(popup_d4b4a13176e74dea0bd5316afb9e0727)
+        ;
+
+        
+    
+    
+            var marker_6420692cb222e81224113ca2eb9f8e3f = L.marker(
+                [-19.015438, 29.154857],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_67c9c2d02d0df5820980c41af301dd90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa04c5cd914fa3b480e6c774956e6745 = $(`<div id="html_fa04c5cd914fa3b480e6c774956e6745" style="width: 100.0%; height: 100.0%;">Country: Zimbabwe<br>Sales: $14118.00<br>Profit: $-5680.70</div>`)[0];
+                popup_67c9c2d02d0df5820980c41af301dd90.setContent(html_fa04c5cd914fa3b480e6c774956e6745);
+            
+        
+
+        marker_6420692cb222e81224113ca2eb9f8e3f.bindPopup(popup_67c9c2d02d0df5820980c41af301dd90)
+        ;
+
+        
+    
+    
+            var marker_31ba09fd3aa8ec5d72b58b9b5dfe7c21 = L.marker(
+                [35.86166, 104.195397],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_1cc2e7adf5ae56d5e13b903cfc504e0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adcb6120325646fa299a6648735835ac = $(`<div id="html_adcb6120325646fa299a6648735835ac" style="width: 100.0%; height: 100.0%;">Country: China<br>Sales: $255432.00<br>Profit: $76479.30</div>`)[0];
+                popup_1cc2e7adf5ae56d5e13b903cfc504e0d.setContent(html_adcb6120325646fa299a6648735835ac);
+            
+        
+
+        marker_31ba09fd3aa8ec5d72b58b9b5dfe7c21.bindPopup(popup_1cc2e7adf5ae56d5e13b903cfc504e0d)
+        ;
+
+        
+    
+    
+            var marker_617db4668d17a598833cca9fb227e761 = L.marker(
+                [22.396428, 114.109497],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_a5bf6f7ebc55a763301d5ab6a581a42e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e49ee425507da0c81534973e7718d65 = $(`<div id="html_8e49ee425507da0c81534973e7718d65" style="width: 100.0%; height: 100.0%;">Country: Hong Kong<br>Sales: $1350.00<br>Profit: $348.15</div>`)[0];
+                popup_a5bf6f7ebc55a763301d5ab6a581a42e.setContent(html_8e49ee425507da0c81534973e7718d65);
+            
+        
+
+        marker_617db4668d17a598833cca9fb227e761.bindPopup(popup_a5bf6f7ebc55a763301d5ab6a581a42e)
+        ;
+
+        
+    
+    
+            var marker_7c77c9e9a8ef9964d6fc1617da91894b = L.marker(
+                [36.204824, 138.252924],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_0b6c9e518e4419b66a8cf066527df8cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e906de3713607e72c7fed6744f7f6f51 = $(`<div id="html_e906de3713607e72c7fed6744f7f6f51" style="width: 100.0%; height: 100.0%;">Country: Japan<br>Sales: $40742.00<br>Profit: $11000.20</div>`)[0];
+                popup_0b6c9e518e4419b66a8cf066527df8cd.setContent(html_e906de3713607e72c7fed6744f7f6f51);
+            
+        
+
+        marker_7c77c9e9a8ef9964d6fc1617da91894b.bindPopup(popup_0b6c9e518e4419b66a8cf066527df8cd)
+        ;
+
+        
+    
+    
+            var marker_7e5f2f61dc84ca63d56201dbc80b9c92 = L.marker(
+                [46.862496, 103.846656],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_d7a4d95f72197575156367663a89a1f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9458348922948a002549d774115f62c8 = $(`<div id="html_9458348922948a002549d774115f62c8" style="width: 100.0%; height: 100.0%;">Country: Mongolia<br>Sales: $5544.00<br>Profit: $1563.90</div>`)[0];
+                popup_d7a4d95f72197575156367663a89a1f8.setContent(html_9458348922948a002549d774115f62c8);
+            
+        
+
+        marker_7e5f2f61dc84ca63d56201dbc80b9c92.bindPopup(popup_d7a4d95f72197575156367663a89a1f8)
+        ;
+
+        
+    
+    
+            var marker_87b3550240679b45c34214f836095a8b = L.marker(
+                [35.907757, 127.766922],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_9c661c0818e643925307c6d162fd52f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f094d4eabac5b1bd730f68a1b59ec2de = $(`<div id="html_f094d4eabac5b1bd730f68a1b59ec2de" style="width: 100.0%; height: 100.0%;">Country: South Korea<br>Sales: $21197.00<br>Profit: $-3705.95</div>`)[0];
+                popup_9c661c0818e643925307c6d162fd52f9.setContent(html_f094d4eabac5b1bd730f68a1b59ec2de);
+            
+        
+
+        marker_87b3550240679b45c34214f836095a8b.bindPopup(popup_9c661c0818e643925307c6d162fd52f9)
+        ;
+
+        
+    
+    
+            var marker_7976248539a83351a7289406237c5200 = L.marker(
+                [23.69781, 120.960515],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_2b1c4da879fc631f2939aadfa9515c9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d95a84b18eff742ca2066070c46f9be4 = $(`<div id="html_d95a84b18eff742ca2066070c46f9be4" style="width: 100.0%; height: 100.0%;">Country: Taiwan<br>Sales: $1972.00<br>Profit: $776.10</div>`)[0];
+                popup_2b1c4da879fc631f2939aadfa9515c9c.setContent(html_d95a84b18eff742ca2066070c46f9be4);
+            
+        
+
+        marker_7976248539a83351a7289406237c5200.bindPopup(popup_2b1c4da879fc631f2939aadfa9515c9c)
+        ;
+
+        
+    
+    
+            var marker_4cde6c5fe163340e79c7071b7eab1ec0 = L.marker(
+                [53.709807, 27.953389],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_e5ffae1305e2523eb3d6788501c8d352 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9432bf241eaf29958818ab136acf8113 = $(`<div id="html_9432bf241eaf29958818ab136acf8113" style="width: 100.0%; height: 100.0%;">Country: Belarus<br>Sales: $6737.00<br>Profit: $2356.85</div>`)[0];
+                popup_e5ffae1305e2523eb3d6788501c8d352.setContent(html_9432bf241eaf29958818ab136acf8113);
+            
+        
+
+        marker_4cde6c5fe163340e79c7071b7eab1ec0.bindPopup(popup_e5ffae1305e2523eb3d6788501c8d352)
+        ;
+
+        
+    
+    
+            var marker_8444a25f527603289a67881571051734 = L.marker(
+                [42.733883, 25.48583],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_270000ba337b1c0c42ea91c9f7cfe951 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ecf83bf9bf665db63a5a51610756ac2 = $(`<div id="html_5ecf83bf9bf665db63a5a51610756ac2" style="width: 100.0%; height: 100.0%;">Country: Bulgaria<br>Sales: $8637.00<br>Profit: $2683.55</div>`)[0];
+                popup_270000ba337b1c0c42ea91c9f7cfe951.setContent(html_5ecf83bf9bf665db63a5a51610756ac2);
+            
+        
+
+        marker_8444a25f527603289a67881571051734.bindPopup(popup_270000ba337b1c0c42ea91c9f7cfe951)
+        ;
+
+        
+    
+    
+            var marker_b4e4d8d96ae4905867f9c66e270d8ca8 = L.marker(
+                [49.817492, 15.472962],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_7cf790581fbd5c9ab90992508a486e63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87c2d2d6d4cee5d761d5b93466a5ec10 = $(`<div id="html_87c2d2d6d4cee5d761d5b93466a5ec10" style="width: 100.0%; height: 100.0%;">Country: Czech Republic<br>Sales: $5936.00<br>Profit: $2027.20</div>`)[0];
+                popup_7cf790581fbd5c9ab90992508a486e63.setContent(html_87c2d2d6d4cee5d761d5b93466a5ec10);
+            
+        
+
+        marker_b4e4d8d96ae4905867f9c66e270d8ca8.bindPopup(popup_7cf790581fbd5c9ab90992508a486e63)
+        ;
+
+        
+    
+    
+            var marker_9cdfd8b7910a30f73ead8de507cf01e5 = L.marker(
+                [47.162494, 19.503304],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_90c466b5d934b461832af5730f34b1f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_873f07a223a044b219f7f9db14a03521 = $(`<div id="html_873f07a223a044b219f7f9db14a03521" style="width: 100.0%; height: 100.0%;">Country: Hungary<br>Sales: $8558.00<br>Profit: $3014.15</div>`)[0];
+                popup_90c466b5d934b461832af5730f34b1f9.setContent(html_873f07a223a044b219f7f9db14a03521);
+            
+        
+
+        marker_9cdfd8b7910a30f73ead8de507cf01e5.bindPopup(popup_90c466b5d934b461832af5730f34b1f9)
+        ;
+
+        
+    
+    
+            var marker_f013aa65961bf989fd116a0c2aa23320 = L.marker(
+                [47.411631, 28.369885],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_9bdc6749a212f914495610815748529d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c80af22db5b9ce7dbce7b0386835209 = $(`<div id="html_5c80af22db5b9ce7dbce7b0386835209" style="width: 100.0%; height: 100.0%;">Country: Moldova<br>Sales: $3092.00<br>Profit: $733.20</div>`)[0];
+                popup_9bdc6749a212f914495610815748529d.setContent(html_5c80af22db5b9ce7dbce7b0386835209);
+            
+        
+
+        marker_f013aa65961bf989fd116a0c2aa23320.bindPopup(popup_9bdc6749a212f914495610815748529d)
+        ;
+
+        
+    
+    
+            var marker_f21147d95081153b7ed5fe44a1993b4e = L.marker(
+                [51.919438, 19.145136],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_b2720065d4a7b913603917d687875742 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71e18976001354dc1549163f388977db = $(`<div id="html_71e18976001354dc1549163f388977db" style="width: 100.0%; height: 100.0%;">Country: Poland<br>Sales: $30275.00<br>Profit: $10773.05</div>`)[0];
+                popup_b2720065d4a7b913603917d687875742.setContent(html_71e18976001354dc1549163f388977db);
+            
+        
+
+        marker_f21147d95081153b7ed5fe44a1993b4e.bindPopup(popup_b2720065d4a7b913603917d687875742)
+        ;
+
+        
+    
+    
+            var marker_9888f6c8411c9cc552c299ad66a8e72b = L.marker(
+                [45.943161, 24.96676],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_b9aa5b5d0983856eecafc937a81e9424 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5755d6b2e15f3f77439fe798f64ae971 = $(`<div id="html_5755d6b2e15f3f77439fe798f64ae971" style="width: 100.0%; height: 100.0%;">Country: Romania<br>Sales: $23745.00<br>Profit: $7454.05</div>`)[0];
+                popup_b9aa5b5d0983856eecafc937a81e9424.setContent(html_5755d6b2e15f3f77439fe798f64ae971);
+            
+        
+
+        marker_9888f6c8411c9cc552c299ad66a8e72b.bindPopup(popup_b9aa5b5d0983856eecafc937a81e9424)
+        ;
+
+        
+    
+    
+            var marker_1197cd5cbf2f8f2c711ca10fa8af4e31 = L.marker(
+                [61.52401, 105.318756],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_9bb9d79d1dfb9d68c548b7416231b9b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46915cb1f5378184975a2bb50ba4fb71 = $(`<div id="html_46915cb1f5378184975a2bb50ba4fb71" style="width: 100.0%; height: 100.0%;">Country: Russia<br>Sales: $37212.00<br>Profit: $11479.75</div>`)[0];
+                popup_9bb9d79d1dfb9d68c548b7416231b9b2.setContent(html_46915cb1f5378184975a2bb50ba4fb71);
+            
+        
+
+        marker_1197cd5cbf2f8f2c711ca10fa8af4e31.bindPopup(popup_9bb9d79d1dfb9d68c548b7416231b9b2)
+        ;
+
+        
+    
+    
+            var marker_f63308291d8a2294fad3586474021eb0 = L.marker(
+                [44.016521, 21.005859],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_51035085f65f8d1d1bbe23736997a296 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_048e819813877b8ca576b5d347624fd8 = $(`<div id="html_048e819813877b8ca576b5d347624fd8" style="width: 100.0%; height: 100.0%;">Country: Serbia<br>Sales: $212.00<br>Profit: $21.40</div>`)[0];
+                popup_51035085f65f8d1d1bbe23736997a296.setContent(html_048e819813877b8ca576b5d347624fd8);
+            
+        
+
+        marker_f63308291d8a2294fad3586474021eb0.bindPopup(popup_51035085f65f8d1d1bbe23736997a296)
+        ;
+
+        
+    
+    
+            var marker_1d73143db786c3d124805f6bb5404b2b = L.marker(
+                [48.669026, 19.699024],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_622d01e290797f426a1d040c9dfdc543 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bab77b60fc7e819e02654ddd0a92cb95 = $(`<div id="html_bab77b60fc7e819e02654ddd0a92cb95" style="width: 100.0%; height: 100.0%;">Country: Slovakia<br>Sales: $382.00<br>Profit: $90.90</div>`)[0];
+                popup_622d01e290797f426a1d040c9dfdc543.setContent(html_bab77b60fc7e819e02654ddd0a92cb95);
+            
+        
+
+        marker_1d73143db786c3d124805f6bb5404b2b.bindPopup(popup_622d01e290797f426a1d040c9dfdc543)
+        ;
+
+        
+    
+    
+            var marker_95f1e5e1f417855f62733e7e51e9a6e3 = L.marker(
+                [48.379433, 31.16558],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_065f78e891dd33ae2853cc9c4b9dee24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b12f73e42b4a3524e851e9cdfa4ffcda = $(`<div id="html_b12f73e42b4a3524e851e9cdfa4ffcda" style="width: 100.0%; height: 100.0%;">Country: Ukraine<br>Sales: $40471.00<br>Profit: $12320.35</div>`)[0];
+                popup_065f78e891dd33ae2853cc9c4b9dee24.setContent(html_b12f73e42b4a3524e851e9cdfa4ffcda);
+            
+        
+
+        marker_95f1e5e1f417855f62733e7e51e9a6e3.bindPopup(popup_065f78e891dd33ae2853cc9c4b9dee24)
+        ;
+
+        
+    
+    
+            var marker_79e546af457fd90c84853bb241d60a59 = L.marker(
+                [37.09024, -95.712891],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_a1ece6bac3170e095cee40e698a97aba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67cebf8ccb43924ef84bec7b9b936521 = $(`<div id="html_67cebf8ccb43924ef84bec7b9b936521" style="width: 100.0%; height: 100.0%;">Country: United States<br>Sales: $379999.00<br>Profit: $63428.25</div>`)[0];
+                popup_a1ece6bac3170e095cee40e698a97aba.setContent(html_67cebf8ccb43924ef84bec7b9b936521);
+            
+        
+
+        marker_79e546af457fd90c84853bb241d60a59.bindPopup(popup_a1ece6bac3170e095cee40e698a97aba)
+        ;
+
+        
+    
+    
+            var marker_d62438827c7987ed6d013e6101ff177e = L.marker(
+                [28.033886, 1.659626],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_91f6d39581935de7869732c5264c402f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8e5247b4c6a81b30d2888c0cffbd4e8 = $(`<div id="html_e8e5247b4c6a81b30d2888c0cffbd4e8" style="width: 100.0%; height: 100.0%;">Country: Algeria<br>Sales: $15023.00<br>Profit: $5382.25</div>`)[0];
+                popup_91f6d39581935de7869732c5264c402f.setContent(html_e8e5247b4c6a81b30d2888c0cffbd4e8);
+            
+        
+
+        marker_d62438827c7987ed6d013e6101ff177e.bindPopup(popup_91f6d39581935de7869732c5264c402f)
+        ;
+
+        
+    
+    
+            var marker_99c149838a012d6a4daf0ce75c081cfd = L.marker(
+                [26.820553, 30.802498],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_15c0a61da5b96e727ada2fb4d36bdc6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4ca429b54969fb027c589a599456538 = $(`<div id="html_d4ca429b54969fb027c589a599456538" style="width: 100.0%; height: 100.0%;">Country: Egypt<br>Sales: $44017.00<br>Profit: $14075.55</div>`)[0];
+                popup_15c0a61da5b96e727ada2fb4d36bdc6a.setContent(html_d4ca429b54969fb027c589a599456538);
+            
+        
+
+        marker_99c149838a012d6a4daf0ce75c081cfd.bindPopup(popup_15c0a61da5b96e727ada2fb4d36bdc6a)
+        ;
+
+        
+    
+    
+            var marker_17e18d88423feaa17235201d0aecc889 = L.marker(
+                [26.3351, 17.228331],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_2716beeae40ecd2038061065db420025 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a0c3cccfa4a9c6570f944b7e5cdeecf = $(`<div id="html_4a0c3cccfa4a9c6570f944b7e5cdeecf" style="width: 100.0%; height: 100.0%;">Country: Libya<br>Sales: $4036.00<br>Profit: $1203.65</div>`)[0];
+                popup_2716beeae40ecd2038061065db420025.setContent(html_4a0c3cccfa4a9c6570f944b7e5cdeecf);
+            
+        
+
+        marker_17e18d88423feaa17235201d0aecc889.bindPopup(popup_2716beeae40ecd2038061065db420025)
+        ;
+
+        
+    
+    
+            var marker_19fc76389fb89fc45b553534e315b856 = L.marker(
+                [31.791702, -7.09262],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_49b6afb2e4237cf4077951e4208de1ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eae7410c5cad9b53d23b41611caf9991 = $(`<div id="html_eae7410c5cad9b53d23b41611caf9991" style="width: 100.0%; height: 100.0%;">Country: Morocco<br>Sales: $47276.00<br>Profit: $15035.95</div>`)[0];
+                popup_49b6afb2e4237cf4077951e4208de1ad.setContent(html_eae7410c5cad9b53d23b41611caf9991);
+            
+        
+
+        marker_19fc76389fb89fc45b553534e315b856.bindPopup(popup_49b6afb2e4237cf4077951e4208de1ad)
+        ;
+
+        
+    
+    
+            var marker_533ac20f4a74fc3ceb1912feb9f87441 = L.marker(
+                [12.862807, 30.217636],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_0978106b749a98ebafd942ce508b8c15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23eae3c624befc07f9cc774ac65268ce = $(`<div id="html_23eae3c624befc07f9cc774ac65268ce" style="width: 100.0%; height: 100.0%;">Country: Sudan<br>Sales: $7724.00<br>Profit: $2555.90</div>`)[0];
+                popup_0978106b749a98ebafd942ce508b8c15.setContent(html_23eae3c624befc07f9cc774ac65268ce);
+            
+        
+
+        marker_533ac20f4a74fc3ceb1912feb9f87441.bindPopup(popup_0978106b749a98ebafd942ce508b8c15)
+        ;
+
+        
+    
+    
+            var marker_45c9a9d694fb2206a4b6156bc5905e2a = L.marker(
+                [33.886917, 9.537499],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_c482350a016783b52c2fbcd040a7dd63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f949bc5f718f0b7b0f45b79a27e56e8 = $(`<div id="html_8f949bc5f718f0b7b0f45b79a27e56e8" style="width: 100.0%; height: 100.0%;">Country: Tunisia<br>Sales: $499.00<br>Profit: $146.20</div>`)[0];
+                popup_c482350a016783b52c2fbcd040a7dd63.setContent(html_8f949bc5f718f0b7b0f45b79a27e56e8);
+            
+        
+
+        marker_45c9a9d694fb2206a4b6156bc5905e2a.bindPopup(popup_c482350a016783b52c2fbcd040a7dd63)
+        ;
+
+        
+    
+    
+            var marker_9eb284bfa2b857c94e31618d4a1b1685 = L.marker(
+                [56.26392, 9.501785],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_939af6568eaa953f0e0e93a9e7901629 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da01a8274df83bfd2fe15850a7a8844e = $(`<div id="html_da01a8274df83bfd2fe15850a7a8844e" style="width: 100.0%; height: 100.0%;">Country: Denmark<br>Sales: $7777.00<br>Profit: $-2267.05</div>`)[0];
+                popup_939af6568eaa953f0e0e93a9e7901629.setContent(html_da01a8274df83bfd2fe15850a7a8844e);
+            
+        
+
+        marker_9eb284bfa2b857c94e31618d4a1b1685.bindPopup(popup_939af6568eaa953f0e0e93a9e7901629)
+        ;
+
+        
+    
+    
+            var marker_8a8fd6d20d8dfa27966cc0fa39620094 = L.marker(
+                [58.595272, 25.013607],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_bff83ec37f98cc762dd174df4ec371dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd06d8558748db2324d4379b56e596e5 = $(`<div id="html_cd06d8558748db2324d4379b56e596e5" style="width: 100.0%; height: 100.0%;">Country: Estonia<br>Sales: $2592.00<br>Profit: $920.05</div>`)[0];
+                popup_bff83ec37f98cc762dd174df4ec371dd.setContent(html_cd06d8558748db2324d4379b56e596e5);
+            
+        
+
+        marker_8a8fd6d20d8dfa27966cc0fa39620094.bindPopup(popup_bff83ec37f98cc762dd174df4ec371dd)
+        ;
+
+        
+    
+    
+            var marker_515066918f62861362bf0b5308de76a6 = L.marker(
+                [61.92411, 25.748151],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_5340f707ab4d8c279c42ebb1625359b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_625cb51fb218929b21fb5be5b1f6ee2b = $(`<div id="html_625cb51fb218929b21fb5be5b1f6ee2b" style="width: 100.0%; height: 100.0%;">Country: Finland<br>Sales: $4736.00<br>Profit: $1599.35</div>`)[0];
+                popup_5340f707ab4d8c279c42ebb1625359b9.setContent(html_625cb51fb218929b21fb5be5b1f6ee2b);
+            
+        
+
+        marker_515066918f62861362bf0b5308de76a6.bindPopup(popup_5340f707ab4d8c279c42ebb1625359b9)
+        ;
+
+        
+    
+    
+            var marker_d1017148b58114590127bc31468dcf41 = L.marker(
+                [53.41291, -8.24389],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_16d416c2ecc5d8c1910fbe0b275d3724 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3679be06aebd4cc46880e7c68303a5e1 = $(`<div id="html_3679be06aebd4cc46880e7c68303a5e1" style="width: 100.0%; height: 100.0%;">Country: Ireland<br>Sales: $9945.00<br>Profit: $-1718.35</div>`)[0];
+                popup_16d416c2ecc5d8c1910fbe0b275d3724.setContent(html_3679be06aebd4cc46880e7c68303a5e1);
+            
+        
+
+        marker_d1017148b58114590127bc31468dcf41.bindPopup(popup_16d416c2ecc5d8c1910fbe0b275d3724)
+        ;
+
+        
+    
+    
+            var marker_83fc3cf540ab236b44e947424e202329 = L.marker(
+                [55.169438, 23.881275],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_72dae063f30c438a5a18ed4882a4d54c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c5de575b93a2590539169928b2fe661 = $(`<div id="html_5c5de575b93a2590539169928b2fe661" style="width: 100.0%; height: 100.0%;">Country: Lithuania<br>Sales: $6524.00<br>Profit: $-2071.00</div>`)[0];
+                popup_72dae063f30c438a5a18ed4882a4d54c.setContent(html_5c5de575b93a2590539169928b2fe661);
+            
+        
+
+        marker_83fc3cf540ab236b44e947424e202329.bindPopup(popup_72dae063f30c438a5a18ed4882a4d54c)
+        ;
+
+        
+    
+    
+            var marker_af839f50b1780a81c620af2415e15060 = L.marker(
+                [60.472024, 8.468946],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_2d57b1e97cf2a60d4377b82ae669ed85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9375ab88d562151e01963ad51934591 = $(`<div id="html_f9375ab88d562151e01963ad51934591" style="width: 100.0%; height: 100.0%;">Country: Norway<br>Sales: $9941.00<br>Profit: $3288.20</div>`)[0];
+                popup_2d57b1e97cf2a60d4377b82ae669ed85.setContent(html_f9375ab88d562151e01963ad51934591);
+            
+        
+
+        marker_af839f50b1780a81c620af2415e15060.bindPopup(popup_2d57b1e97cf2a60d4377b82ae669ed85)
+        ;
+
+        
+    
+    
+            var marker_d1bcf3c0cf657c6dcd36575ee40990cc = L.marker(
+                [60.128161, 18.643501],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_7a3cb82ebf16408f4ae486e27f4c539d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b5067f38aa9b7fd072d2c81302528a9 = $(`<div id="html_2b5067f38aa9b7fd072d2c81302528a9" style="width: 100.0%; height: 100.0%;">Country: Sweden<br>Sales: $24097.00<br>Profit: $-5660.95</div>`)[0];
+                popup_7a3cb82ebf16408f4ae486e27f4c539d.setContent(html_2b5067f38aa9b7fd072d2c81302528a9);
+            
+        
+
+        marker_d1bcf3c0cf657c6dcd36575ee40990cc.bindPopup(popup_7a3cb82ebf16408f4ae486e27f4c539d)
+        ;
+
+        
+    
+    
+            var marker_120a380f861822e2f1cefabafbf734be = L.marker(
+                [55.378051, -3.435973],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_fdc082f9eb20ff3cf3008719a6ab9fbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b8ba8a7c2e83be0a07ecd37dd983378 = $(`<div id="html_0b8ba8a7c2e83be0a07ecd37dd983378" style="width: 100.0%; height: 100.0%;">Country: United Kingdom<br>Sales: $198645.00<br>Profit: $48034.85</div>`)[0];
+                popup_fdc082f9eb20ff3cf3008719a6ab9fbc.setContent(html_0b8ba8a7c2e83be0a07ecd37dd983378);
+            
+        
+
+        marker_120a380f861822e2f1cefabafbf734be.bindPopup(popup_fdc082f9eb20ff3cf3008719a6ab9fbc)
+        ;
+
+        
+    
+    
+            var marker_712b823828f824c2632bb5fda267e25d = L.marker(
+                [-25.274398, 133.775136],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_ac09935d7e2523d78c4770c020f37e9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6077a557ee088289ff738c0e7495db3 = $(`<div id="html_b6077a557ee088289ff738c0e7495db3" style="width: 100.0%; height: 100.0%;">Country: Australia<br>Sales: $381404.00<br>Profit: $61833.00</div>`)[0];
+                popup_ac09935d7e2523d78c4770c020f37e9d.setContent(html_b6077a557ee088289ff738c0e7495db3);
+            
+        
+
+        marker_712b823828f824c2632bb5fda267e25d.bindPopup(popup_ac09935d7e2523d78c4770c020f37e9d)
+        ;
+
+        
+    
+    
+            var marker_1f8807c8269d77f1f8386106322ca683 = L.marker(
+                [-40.900557, 174.885971],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_1c9a3a058d8580b9eff25935e772b5c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_516c98b67d55204352aef9aba793f378 = $(`<div id="html_516c98b67d55204352aef9aba793f378" style="width: 100.0%; height: 100.0%;">Country: New Zealand<br>Sales: $70373.00<br>Profit: $7330.70</div>`)[0];
+                popup_1c9a3a058d8580b9eff25935e772b5c7.setContent(html_516c98b67d55204352aef9aba793f378);
+            
+        
+
+        marker_1f8807c8269d77f1f8386106322ca683.bindPopup(popup_1c9a3a058d8580b9eff25935e772b5c7)
+        ;
+
+        
+    
+    
+            var marker_a0c112cb7ebc291a2a1263c847397e42 = L.marker(
+                [-6.314993, 143.95555],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_9dc312c486690a3729c58de7c9034383 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50d19c0db3d0c89a48639c4358379387 = $(`<div id="html_50d19c0db3d0c89a48639c4358379387" style="width: 100.0%; height: 100.0%;">Country: Papua New Guinea<br>Sales: $2527.00<br>Profit: $-276.55</div>`)[0];
+                popup_9dc312c486690a3729c58de7c9034383.setContent(html_50d19c0db3d0c89a48639c4358379387);
+            
+        
+
+        marker_a0c112cb7ebc291a2a1263c847397e42.bindPopup(popup_9dc312c486690a3729c58de7c9034383)
+        ;
+
+        
+    
+    
+            var marker_d9c6eb4b48769fd56368939ab6449e4f = L.marker(
+                [-38.416097, -63.616672],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_7698f7346f1e8d584f808339986d99b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d2bd148818c7563f0a37d7ae176cf12 = $(`<div id="html_3d2bd148818c7563f0a37d7ae176cf12" style="width: 100.0%; height: 100.0%;">Country: Argentina<br>Sales: $55989.00<br>Profit: $-6794.70</div>`)[0];
+                popup_7698f7346f1e8d584f808339986d99b7.setContent(html_3d2bd148818c7563f0a37d7ae176cf12);
+            
+        
+
+        marker_d9c6eb4b48769fd56368939ab6449e4f.bindPopup(popup_7698f7346f1e8d584f808339986d99b7)
+        ;
+
+        
+    
+    
+            var marker_8573f20cb708edec0a65113be7fbb76b = L.marker(
+                [-16.290154, -63.588653],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_7e663b57ff866ff58dd066a12f0fc118 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_953c214a4dc44626be5a16b40c6f1858 = $(`<div id="html_953c214a4dc44626be5a16b40c6f1858" style="width: 100.0%; height: 100.0%;">Country: Bolivia<br>Sales: $4883.00<br>Profit: $1511.39</div>`)[0];
+                popup_7e663b57ff866ff58dd066a12f0fc118.setContent(html_953c214a4dc44626be5a16b40c6f1858);
+            
+        
+
+        marker_8573f20cb708edec0a65113be7fbb76b.bindPopup(popup_7e663b57ff866ff58dd066a12f0fc118)
+        ;
+
+        
+    
+    
+            var marker_2a55e625583f4297275d52364af8b9b3 = L.marker(
+                [-14.235004, -51.92528],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_d2d06d519342af8b3788614dd4406cf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf53b7313be2b36e1acf703dfa3a5466 = $(`<div id="html_bf53b7313be2b36e1acf703dfa3a5466" style="width: 100.0%; height: 100.0%;">Country: Brazil<br>Sales: $202478.00<br>Profit: $27833.06</div>`)[0];
+                popup_d2d06d519342af8b3788614dd4406cf2.setContent(html_bf53b7313be2b36e1acf703dfa3a5466);
+            
+        
+
+        marker_2a55e625583f4297275d52364af8b9b3.bindPopup(popup_d2d06d519342af8b3788614dd4406cf2)
+        ;
+
+        
+    
+    
+            var marker_35a7f360277180511a24f4b18068ab7f = L.marker(
+                [-35.675147, -71.542969],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_d4a6a47c3c01b6aaf855aa2983833bb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3faa554cbef2457b32913ea299e3bc0 = $(`<div id="html_e3faa554cbef2457b32913ea299e3bc0" style="width: 100.0%; height: 100.0%;">Country: Chile<br>Sales: $21192.00<br>Profit: $7983.38</div>`)[0];
+                popup_d4a6a47c3c01b6aaf855aa2983833bb5.setContent(html_e3faa554cbef2457b32913ea299e3bc0);
+            
+        
+
+        marker_35a7f360277180511a24f4b18068ab7f.bindPopup(popup_d4a6a47c3c01b6aaf855aa2983833bb5)
+        ;
+
+        
+    
+    
+            var marker_481261570729ce32d834cf994e936c60 = L.marker(
+                [4.570868, -74.297333],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_7df204d87026a55f7c201dbcadaae45b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a52778e983e98feccbae25371ea5a84e = $(`<div id="html_a52778e983e98feccbae25371ea5a84e" style="width: 100.0%; height: 100.0%;">Country: Colombia<br>Sales: $48756.00<br>Profit: $13023.64</div>`)[0];
+                popup_7df204d87026a55f7c201dbcadaae45b.setContent(html_a52778e983e98feccbae25371ea5a84e);
+            
+        
+
+        marker_481261570729ce32d834cf994e936c60.bindPopup(popup_7df204d87026a55f7c201dbcadaae45b)
+        ;
+
+        
+    
+    
+            var marker_d3d3ff858253f0d3290fed145b3298b8 = L.marker(
+                [-1.831239, -78.183406],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_3faf9e4a2363ab5f5cda84a168da79f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea5c69bf96063e185fa12ac310004c52 = $(`<div id="html_ea5c69bf96063e185fa12ac310004c52" style="width: 100.0%; height: 100.0%;">Country: Ecuador<br>Sales: $7365.00<br>Profit: $1968.42</div>`)[0];
+                popup_3faf9e4a2363ab5f5cda84a168da79f0.setContent(html_ea5c69bf96063e185fa12ac310004c52);
+            
+        
+
+        marker_d3d3ff858253f0d3290fed145b3298b8.bindPopup(popup_3faf9e4a2363ab5f5cda84a168da79f0)
+        ;
+
+        
+    
+    
+            var marker_25cd9b5174ac0f59531a7f711c9d69f7 = L.marker(
+                [3.933889, -53.125782],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_9368dd33b42824e4ca80395121467014 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1f1ce0bb05ed0d4c044e467ae5fa4f8 = $(`<div id="html_c1f1ce0bb05ed0d4c044e467ae5fa4f8" style="width: 100.0%; height: 100.0%;">Country: French Guiana<br>Sales: $111.00<br>Profit: $30.40</div>`)[0];
+                popup_9368dd33b42824e4ca80395121467014.setContent(html_c1f1ce0bb05ed0d4c044e467ae5fa4f8);
+            
+        
+
+        marker_25cd9b5174ac0f59531a7f711c9d69f7.bindPopup(popup_9368dd33b42824e4ca80395121467014)
+        ;
+
+        
+    
+    
+            var marker_1aea84e77651ba8c646bcd6fc1f65c5a = L.marker(
+                [4.860416, -58.93018],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_94198f81460f3cb1e7db9cb05c7d11e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc0990f00a9f736d9456cd845d1230b2 = $(`<div id="html_cc0990f00a9f736d9456cd845d1230b2" style="width: 100.0%; height: 100.0%;">Country: Guyana<br>Sales: $305.00<br>Profit: $152.50</div>`)[0];
+                popup_94198f81460f3cb1e7db9cb05c7d11e6.setContent(html_cc0990f00a9f736d9456cd845d1230b2);
+            
+        
+
+        marker_1aea84e77651ba8c646bcd6fc1f65c5a.bindPopup(popup_94198f81460f3cb1e7db9cb05c7d11e6)
+        ;
+
+        
+    
+    
+            var marker_d16b5f575aaf984d793d793fb17245f7 = L.marker(
+                [-23.442503, -58.443832],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_d7a1dc2c473d0f4d9ab260e1c5b3ebfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_742620408caf55210f8f14f516504ed5 = $(`<div id="html_742620408caf55210f8f14f516504ed5" style="width: 100.0%; height: 100.0%;">Country: Paraguay<br>Sales: $992.00<br>Profit: $208.06</div>`)[0];
+                popup_d7a1dc2c473d0f4d9ab260e1c5b3ebfd.setContent(html_742620408caf55210f8f14f516504ed5);
+            
+        
+
+        marker_d16b5f575aaf984d793d793fb17245f7.bindPopup(popup_d7a1dc2c473d0f4d9ab260e1c5b3ebfd)
+        ;
+
+        
+    
+    
+            var marker_fe025a932fc1e63bf7a0571047c87d03 = L.marker(
+                [-9.189967, -75.015152],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_08567b8a81607913d72e9052ecaa2a41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c668c9d4291bf13a35f736da76e66f3f = $(`<div id="html_c668c9d4291bf13a35f736da76e66f3f" style="width: 100.0%; height: 100.0%;">Country: Peru<br>Sales: $21483.00<br>Profit: $-2573.93</div>`)[0];
+                popup_08567b8a81607913d72e9052ecaa2a41.setContent(html_c668c9d4291bf13a35f736da76e66f3f);
+            
+        
+
+        marker_fe025a932fc1e63bf7a0571047c87d03.bindPopup(popup_08567b8a81607913d72e9052ecaa2a41)
+        ;
+
+        
+    
+    
+            var marker_e4030731a6275871fad47f14ae184c36 = L.marker(
+                [3.919305, -56.027783],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_cce2040de4ac2371a7a023a9682fbdc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_626e6d8ee92158fcfb507c34654374bc = $(`<div id="html_626e6d8ee92158fcfb507c34654374bc" style="width: 100.0%; height: 100.0%;">Country: Suriname<br>Sales: $36.00<br>Profit: $3.60</div>`)[0];
+                popup_cce2040de4ac2371a7a023a9682fbdc0.setContent(html_626e6d8ee92158fcfb507c34654374bc);
+            
+        
+
+        marker_e4030731a6275871fad47f14ae184c36.bindPopup(popup_cce2040de4ac2371a7a023a9682fbdc0)
+        ;
+
+        
+    
+    
+            var marker_49bd0b3fd886fe43e6eb6b50383fa8a7 = L.marker(
+                [-32.522779, -55.765835],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_a4110815635b9e20ed1617cbf44082a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72f4d4e2a99b063ff959e7155c6b251b = $(`<div id="html_72f4d4e2a99b063ff959e7155c6b251b" style="width: 100.0%; height: 100.0%;">Country: Uruguay<br>Sales: $2357.00<br>Profit: $738.55</div>`)[0];
+                popup_a4110815635b9e20ed1617cbf44082a1.setContent(html_72f4d4e2a99b063ff959e7155c6b251b);
+            
+        
+
+        marker_49bd0b3fd886fe43e6eb6b50383fa8a7.bindPopup(popup_a4110815635b9e20ed1617cbf44082a1)
+        ;
+
+        
+    
+    
+            var marker_d540b084b0c89036e4724b921c816d7e = L.marker(
+                [6.42375, -66.58973],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_381fc7a76b4b1059f38031fd8e46a043 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0616136c569df32b2b3d774c72b4b208 = $(`<div id="html_0616136c569df32b2b3d774c72b4b208" style="width: 100.0%; height: 100.0%;">Country: Venezuela<br>Sales: $22232.00<br>Profit: $-2487.29</div>`)[0];
+                popup_381fc7a76b4b1059f38031fd8e46a043.setContent(html_0616136c569df32b2b3d774c72b4b208);
+            
+        
+
+        marker_d540b084b0c89036e4724b921c816d7e.bindPopup(popup_381fc7a76b4b1059f38031fd8e46a043)
+        ;
+
+        
+    
+    
+            var marker_6e98e37dbb07d17dc70300486b174730 = L.marker(
+                [12.565679, 104.990963],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_04981315a96be7c59fa2772ba86ac5d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10ebfe79a9004e05a23d984ff9a34a6c = $(`<div id="html_10ebfe79a9004e05a23d984ff9a34a6c" style="width: 100.0%; height: 100.0%;">Country: Cambodia<br>Sales: $5852.00<br>Profit: $1596.65</div>`)[0];
+                popup_04981315a96be7c59fa2772ba86ac5d2.setContent(html_10ebfe79a9004e05a23d984ff9a34a6c);
+            
+        
+
+        marker_6e98e37dbb07d17dc70300486b174730.bindPopup(popup_04981315a96be7c59fa2772ba86ac5d2)
+        ;
+
+        
+    
+    
+            var marker_d181f46de0ca2a63fbf1e4565caea3d3 = L.marker(
+                [-0.789275, 113.921327],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_809e297895ce393d424f14d7fb7d251d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82f4f138f826d088b350a35202311002 = $(`<div id="html_82f4f138f826d088b350a35202311002" style="width: 100.0%; height: 100.0%;">Country: Indonesia<br>Sales: $202685.00<br>Profit: $151.54</div>`)[0];
+                popup_809e297895ce393d424f14d7fb7d251d.setContent(html_82f4f138f826d088b350a35202311002);
+            
+        
+
+        marker_d181f46de0ca2a63fbf1e4565caea3d3.bindPopup(popup_809e297895ce393d424f14d7fb7d251d)
+        ;
+
+        
+    
+    
+            var marker_8af0c02c242ebdc4cf1db2acbb855cf3 = L.marker(
+                [19.85627, 102.495496],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_6705845ebf9dabcd9f0dd5f01dc4c204 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c470568b739d21f2333bb2c56832a21a = $(`<div id="html_c470568b739d21f2333bb2c56832a21a" style="width: 100.0%; height: 100.0%;">Country: Laos<br>Sales: $84.00<br>Profit: $10.92</div>`)[0];
+                popup_6705845ebf9dabcd9f0dd5f01dc4c204.setContent(html_c470568b739d21f2333bb2c56832a21a);
+            
+        
+
+        marker_8af0c02c242ebdc4cf1db2acbb855cf3.bindPopup(popup_6705845ebf9dabcd9f0dd5f01dc4c204)
+        ;
+
+        
+    
+    
+            var marker_c874d2c91debbbc08187f5102f67d93a = L.marker(
+                [4.210484, 101.975766],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_02926675d0933dce8f9c2e122b1ed631 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e070c035b5fcf435c0e4149d03e41af0 = $(`<div id="html_e070c035b5fcf435c0e4149d03e41af0" style="width: 100.0%; height: 100.0%;">Country: Malaysia<br>Sales: $19942.00<br>Profit: $5248.40</div>`)[0];
+                popup_02926675d0933dce8f9c2e122b1ed631.setContent(html_e070c035b5fcf435c0e4149d03e41af0);
+            
+        
+
+        marker_c874d2c91debbbc08187f5102f67d93a.bindPopup(popup_02926675d0933dce8f9c2e122b1ed631)
+        ;
+
+        
+    
+    
+            var marker_cbb6b5d6e7577a4304db575c13cddf66 = L.marker(
+                [21.913965, 95.956223],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_463441ad4527d45a7f987633a1ab86a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33a20c2218e3363d428b8f2da6c647ab = $(`<div id="html_33a20c2218e3363d428b8f2da6c647ab" style="width: 100.0%; height: 100.0%;">Country: Myanmar [Burma]<br>Sales: $26389.00<br>Profit: $-1091.33</div>`)[0];
+                popup_463441ad4527d45a7f987633a1ab86a0.setContent(html_33a20c2218e3363d428b8f2da6c647ab);
+            
+        
+
+        marker_cbb6b5d6e7577a4304db575c13cddf66.bindPopup(popup_463441ad4527d45a7f987633a1ab86a0)
+        ;
+
+        
+    
+    
+            var marker_049920f82814c925de861950df1b3981 = L.marker(
+                [12.879721, 121.774017],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_0e1831077094071ccfe95a85b044e37d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_134c07fc69d347f17e910767fba31924 = $(`<div id="html_134c07fc69d347f17e910767fba31924" style="width: 100.0%; height: 100.0%;">Country: Philippines<br>Sales: $90321.00<br>Profit: $-2670.95</div>`)[0];
+                popup_0e1831077094071ccfe95a85b044e37d.setContent(html_134c07fc69d347f17e910767fba31924);
+            
+        
+
+        marker_049920f82814c925de861950df1b3981.bindPopup(popup_0e1831077094071ccfe95a85b044e37d)
+        ;
+
+        
+    
+    
+            var marker_c50eee45e959f4c993a87cc16de54691 = L.marker(
+                [1.352083, 103.819836],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_cd106ea716630da23997a1d83e18b2e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc039d92ad7de5f0d1f43c0e35f23db6 = $(`<div id="html_dc039d92ad7de5f0d1f43c0e35f23db6" style="width: 100.0%; height: 100.0%;">Country: Singapore<br>Sales: $13663.00<br>Profit: $4697.05</div>`)[0];
+                popup_cd106ea716630da23997a1d83e18b2e2.setContent(html_dc039d92ad7de5f0d1f43c0e35f23db6);
+            
+        
+
+        marker_c50eee45e959f4c993a87cc16de54691.bindPopup(popup_cd106ea716630da23997a1d83e18b2e2)
+        ;
+
+        
+    
+    
+            var marker_2628046ab9faa931c53affd404e6f503 = L.marker(
+                [15.870032, 100.992541],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_5160af3db40f71bbdaade44c02b79501 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcb62a15d529f6041f553df7a011e61a = $(`<div id="html_dcb62a15d529f6041f553df7a011e61a" style="width: 100.0%; height: 100.0%;">Country: Thailand<br>Sales: $39596.00<br>Profit: $-1853.07</div>`)[0];
+                popup_5160af3db40f71bbdaade44c02b79501.setContent(html_dcb62a15d529f6041f553df7a011e61a);
+            
+        
+
+        marker_2628046ab9faa931c53affd404e6f503.bindPopup(popup_5160af3db40f71bbdaade44c02b79501)
+        ;
+
+        
+    
+    
+            var marker_da965750e9ccbe10bbe816b1cd857377 = L.marker(
+                [14.058324, 108.277199],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_2d541d7ccf504580a079fc508b8ba040 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f74df94a0ca5ddd979d841a918d32c9b = $(`<div id="html_f74df94a0ca5ddd979d841a918d32c9b" style="width: 100.0%; height: 100.0%;">Country: Vietnam<br>Sales: $25236.00<br>Profit: $989.88</div>`)[0];
+                popup_2d541d7ccf504580a079fc508b8ba040.setContent(html_f74df94a0ca5ddd979d841a918d32c9b);
+            
+        
+
+        marker_da965750e9ccbe10bbe816b1cd857377.bindPopup(popup_2d541d7ccf504580a079fc508b8ba040)
+        ;
+
+        
+    
+    
+            var marker_8e70c6152703ea00c9f04801a77d52f4 = L.marker(
+                [-22.328474, 24.684866],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_6bf23d92a9feb23b4a75c600fe9dabd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_774f40eef45b408ed5c86b25557ef2f8 = $(`<div id="html_774f40eef45b408ed5c86b25557ef2f8" style="width: 100.0%; height: 100.0%;">Country: Botswana<br>Sales: $203.00<br>Profit: $89.95</div>`)[0];
+                popup_6bf23d92a9feb23b4a75c600fe9dabd5.setContent(html_774f40eef45b408ed5c86b25557ef2f8);
+            
+        
+
+        marker_8e70c6152703ea00c9f04801a77d52f4.bindPopup(popup_6bf23d92a9feb23b4a75c600fe9dabd5)
+        ;
+
+        
+    
+    
+            var marker_e90c73bc4a052350e53e0bac1f33131a = L.marker(
+                [-29.609988, 28.233608],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_3feb3b3c13d69bc3843c0902c41acc47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2295ec489f4387a95ee889132a146b62 = $(`<div id="html_2295ec489f4387a95ee889132a146b62" style="width: 100.0%; height: 100.0%;">Country: Lesotho<br>Sales: $1212.00<br>Profit: $160.80</div>`)[0];
+                popup_3feb3b3c13d69bc3843c0902c41acc47.setContent(html_2295ec489f4387a95ee889132a146b62);
+            
+        
+
+        marker_e90c73bc4a052350e53e0bac1f33131a.bindPopup(popup_3feb3b3c13d69bc3843c0902c41acc47)
+        ;
+
+        
+    
+    
+            var marker_dc7c90da1ebaebf6c66674b91f085625 = L.marker(
+                [-22.95764, 18.49041],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_ed5bc8dfadfca5dc8c2338b28f96e322 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e1f4d0b96c2922e87a5bdcca917c9cc = $(`<div id="html_7e1f4d0b96c2922e87a5bdcca917c9cc" style="width: 100.0%; height: 100.0%;">Country: Namibia<br>Sales: $624.00<br>Profit: $170.60</div>`)[0];
+                popup_ed5bc8dfadfca5dc8c2338b28f96e322.setContent(html_7e1f4d0b96c2922e87a5bdcca917c9cc);
+            
+        
+
+        marker_dc7c90da1ebaebf6c66674b91f085625.bindPopup(popup_ed5bc8dfadfca5dc8c2338b28f96e322)
+        ;
+
+        
+    
+    
+            var marker_1bd62f14aa7c0ddd45aa2906e022a7ad = L.marker(
+                [-30.559482, 22.937506],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_d3d24504da6b66ef82963d55387f2394 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c45993965387a3dcff3af632f78cad7 = $(`<div id="html_7c45993965387a3dcff3af632f78cad7" style="width: 100.0%; height: 100.0%;">Country: South Africa<br>Sales: $49071.00<br>Profit: $15977.75</div>`)[0];
+                popup_d3d24504da6b66ef82963d55387f2394.setContent(html_7c45993965387a3dcff3af632f78cad7);
+            
+        
+
+        marker_1bd62f14aa7c0ddd45aa2906e022a7ad.bindPopup(popup_d3d24504da6b66ef82963d55387f2394)
+        ;
+
+        
+    
+    
+            var marker_604063ebfd53656f41c88b72d29a3535 = L.marker(
+                [-26.522503, 31.465866],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_0fbc98d220c6a8db4aaf84d4a8dad094 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0872cb2ff32db085ce6a1306f2694c6f = $(`<div id="html_0872cb2ff32db085ce6a1306f2694c6f" style="width: 100.0%; height: 100.0%;">Country: Swaziland<br>Sales: $452.00<br>Profit: $74.00</div>`)[0];
+                popup_0fbc98d220c6a8db4aaf84d4a8dad094.setContent(html_0872cb2ff32db085ce6a1306f2694c6f);
+            
+        
+
+        marker_604063ebfd53656f41c88b72d29a3535.bindPopup(popup_0fbc98d220c6a8db4aaf84d4a8dad094)
+        ;
+
+        
+    
+    
+            var marker_c44b49d4a5afec1066063e5ae17e3f42 = L.marker(
+                [33.93911, 67.709953],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_b10323761607416406f9775d8f86a76d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbff2646edc40b8d0082c1a9dd2d7b16 = $(`<div id="html_bbff2646edc40b8d0082c1a9dd2d7b16" style="width: 100.0%; height: 100.0%;">Country: Afghanistan<br>Sales: $8509.00<br>Profit: $2456.70</div>`)[0];
+                popup_b10323761607416406f9775d8f86a76d.setContent(html_bbff2646edc40b8d0082c1a9dd2d7b16);
+            
+        
+
+        marker_c44b49d4a5afec1066063e5ae17e3f42.bindPopup(popup_b10323761607416406f9775d8f86a76d)
+        ;
+
+        
+    
+    
+            var marker_10fb41ac847d077b4960b31f4898366a = L.marker(
+                [23.684994, 90.356331],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_4cba942712ab32a26494a09be510151d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18cf84dfd833ddf3990ad70f0708cc82 = $(`<div id="html_18cf84dfd833ddf3990ad70f0708cc82" style="width: 100.0%; height: 100.0%;">Country: Bangladesh<br>Sales: $22494.00<br>Profit: $7033.00</div>`)[0];
+                popup_4cba942712ab32a26494a09be510151d.setContent(html_18cf84dfd833ddf3990ad70f0708cc82);
+            
+        
+
+        marker_10fb41ac847d077b4960b31f4898366a.bindPopup(popup_4cba942712ab32a26494a09be510151d)
+        ;
+
+        
+    
+    
+            var marker_fc4fdc2b94eb7c4d186509713101def9 = L.marker(
+                [27.514162, 90.433601],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_769930c057c9f37554b401c602ef8055 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfbef0c5dc2b2701ad08249c1eca6f3e = $(`<div id="html_dfbef0c5dc2b2701ad08249c1eca6f3e" style="width: 100.0%; height: 100.0%;">Country: Bhutan<br>Sales: $140.00<br>Profit: $21.00</div>`)[0];
+                popup_769930c057c9f37554b401c602ef8055.setContent(html_dfbef0c5dc2b2701ad08249c1eca6f3e);
+            
+        
+
+        marker_fc4fdc2b94eb7c4d186509713101def9.bindPopup(popup_769930c057c9f37554b401c602ef8055)
+        ;
+
+        
+    
+    
+            var marker_bceb1592700c004c5615b954ca65f344 = L.marker(
+                [20.593684, 78.96288],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_92d55544a320279ba7c9f097a4bfedb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d99ef1340c79e389892a89b5ea1cd35c = $(`<div id="html_d99ef1340c79e389892a89b5ea1cd35c" style="width: 100.0%; height: 100.0%;">Country: India<br>Sales: $198978.00<br>Profit: $59257.35</div>`)[0];
+                popup_92d55544a320279ba7c9f097a4bfedb8.setContent(html_d99ef1340c79e389892a89b5ea1cd35c);
+            
+        
+
+        marker_bceb1592700c004c5615b954ca65f344.bindPopup(popup_92d55544a320279ba7c9f097a4bfedb8)
+        ;
+
+        
+    
+    
+            var marker_d7df16fa41297f72e0f923e199627a54 = L.marker(
+                [32.427908, 53.688046],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_c80115015986662c0ad84c73f96683b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_606297bd8420d909b65b03ca882d8289 = $(`<div id="html_606297bd8420d909b65b03ca882d8289" style="width: 100.0%; height: 100.0%;">Country: Iran<br>Sales: $60647.00<br>Profit: $20546.70</div>`)[0];
+                popup_c80115015986662c0ad84c73f96683b6.setContent(html_606297bd8420d909b65b03ca882d8289);
+            
+        
+
+        marker_d7df16fa41297f72e0f923e199627a54.bindPopup(popup_c80115015986662c0ad84c73f96683b6)
+        ;
+
+        
+    
+    
+            var marker_aea604ee29bcec3ef885842328611728 = L.marker(
+                [28.394857, 84.124008],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_35bdf87dcf75429aadd0ac3ad456cd5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cb5b82a3c4827609c1d1af123e1164e = $(`<div id="html_8cb5b82a3c4827609c1d1af123e1164e" style="width: 100.0%; height: 100.0%;">Country: Nepal<br>Sales: $2280.00<br>Profit: $931.25</div>`)[0];
+                popup_35bdf87dcf75429aadd0ac3ad456cd5b.setContent(html_8cb5b82a3c4827609c1d1af123e1164e);
+            
+        
+
+        marker_aea604ee29bcec3ef885842328611728.bindPopup(popup_35bdf87dcf75429aadd0ac3ad456cd5b)
+        ;
+
+        
+    
+    
+            var marker_ecb79725b82d10b0e3045431f5371de5 = L.marker(
+                [30.375321, 69.345116],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_b036c51b09fc1c026d594ab71026aef9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_045f0278ca03fa1e9f6f9b2f0c97b47d = $(`<div id="html_045f0278ca03fa1e9f6f9b2f0c97b47d" style="width: 100.0%; height: 100.0%;">Country: Pakistan<br>Sales: $35066.00<br>Profit: $-5542.25</div>`)[0];
+                popup_b036c51b09fc1c026d594ab71026aef9.setContent(html_045f0278ca03fa1e9f6f9b2f0c97b47d);
+            
+        
+
+        marker_ecb79725b82d10b0e3045431f5371de5.bindPopup(popup_b036c51b09fc1c026d594ab71026aef9)
+        ;
+
+        
+    
+    
+            var marker_e46c4caebb1ffb4c3f14626c29dbb27d = L.marker(
+                [7.873054, 80.771797],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_c405e4e230af0e614531071ce5c30fce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_997792d62a24668d375ae48f9025cd2d = $(`<div id="html_997792d62a24668d375ae48f9025cd2d" style="width: 100.0%; height: 100.0%;">Country: Sri Lanka<br>Sales: $974.00<br>Profit: $207.20</div>`)[0];
+                popup_c405e4e230af0e614531071ce5c30fce.setContent(html_997792d62a24668d375ae48f9025cd2d);
+            
+        
+
+        marker_e46c4caebb1ffb4c3f14626c29dbb27d.bindPopup(popup_c405e4e230af0e614531071ce5c30fce)
+        ;
+
+        
+    
+    
+            var marker_3fc1c319985af67d6ab22f844fdcd565 = L.marker(
+                [41.153332, 20.168331],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_1dc1517ca03a680604a5cc4130217677 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c23650549b664bb7251b6dec4bf255b3 = $(`<div id="html_c23650549b664bb7251b6dec4bf255b3" style="width: 100.0%; height: 100.0%;">Country: Albania<br>Sales: $5403.00<br>Profit: $2433.80</div>`)[0];
+                popup_1dc1517ca03a680604a5cc4130217677.setContent(html_c23650549b664bb7251b6dec4bf255b3);
+            
+        
+
+        marker_3fc1c319985af67d6ab22f844fdcd565.bindPopup(popup_1dc1517ca03a680604a5cc4130217677)
+        ;
+
+        
+    
+    
+            var marker_99036ad714996a7c27cc2f9f836de11a = L.marker(
+                [43.915886, 17.679076],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_7640ff4790e52a4bb6ee5c97b263b8ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_036373530ac2025857692a403764257a = $(`<div id="html_036373530ac2025857692a403764257a" style="width: 100.0%; height: 100.0%;">Country: Bosnia and Herzegovina<br>Sales: $1034.00<br>Profit: $320.45</div>`)[0];
+                popup_7640ff4790e52a4bb6ee5c97b263b8ae.setContent(html_036373530ac2025857692a403764257a);
+            
+        
+
+        marker_99036ad714996a7c27cc2f9f836de11a.bindPopup(popup_7640ff4790e52a4bb6ee5c97b263b8ae)
+        ;
+
+        
+    
+    
+            var marker_3ac0fd27bad93dfd42224cf3a23e4dd1 = L.marker(
+                [45.1, 15.2],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_185c93e04542bb1b2bf96056c4b93315 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_394a3aa1ca8841c32e4aa607304a5c38 = $(`<div id="html_394a3aa1ca8841c32e4aa607304a5c38" style="width: 100.0%; height: 100.0%;">Country: Croatia<br>Sales: $2924.00<br>Profit: $884.00</div>`)[0];
+                popup_185c93e04542bb1b2bf96056c4b93315.setContent(html_394a3aa1ca8841c32e4aa607304a5c38);
+            
+        
+
+        marker_3ac0fd27bad93dfd42224cf3a23e4dd1.bindPopup(popup_185c93e04542bb1b2bf96056c4b93315)
+        ;
+
+        
+    
+    
+            var marker_05648d46b725cd2d275cb54017b5fd22 = L.marker(
+                [35.126413, 33.429859],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_2f33f4764bba70c03dccfb176585f8ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2104f97b7e45b94108d252963dd3897 = $(`<div id="html_b2104f97b7e45b94108d252963dd3897" style="width: 100.0%; height: 100.0%;">Country: Cyprus<br>Sales: $102.00<br>Profit: $33.00</div>`)[0];
+                popup_2f33f4764bba70c03dccfb176585f8ab.setContent(html_b2104f97b7e45b94108d252963dd3897);
+            
+        
+
+        marker_05648d46b725cd2d275cb54017b5fd22.bindPopup(popup_2f33f4764bba70c03dccfb176585f8ab)
+        ;
+
+        
+    
+    
+            var marker_397b35cac8f41ba0c23a907d471b5c2b = L.marker(
+                [39.074208, 21.824312],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_ddd569aa2ecf7cd57a8b0c343f582d40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52077bed36bcd090e111119857cd558c = $(`<div id="html_52077bed36bcd090e111119857cd558c" style="width: 100.0%; height: 100.0%;">Country: Greece<br>Sales: $2780.00<br>Profit: $322.80</div>`)[0];
+                popup_ddd569aa2ecf7cd57a8b0c343f582d40.setContent(html_52077bed36bcd090e111119857cd558c);
+            
+        
+
+        marker_397b35cac8f41ba0c23a907d471b5c2b.bindPopup(popup_ddd569aa2ecf7cd57a8b0c343f582d40)
+        ;
+
+        
+    
+    
+            var marker_81df310e0f84eb0b3e256d95446bd577 = L.marker(
+                [41.87194, 12.56738],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_bf637c6e5883c9c6f4787a27a9831e02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de9dca16d0eee8de2748108f37d04a8d = $(`<div id="html_de9dca16d0eee8de2748108f37d04a8d" style="width: 100.0%; height: 100.0%;">Country: Italy<br>Sales: $168039.00<br>Profit: $32900.35</div>`)[0];
+                popup_bf637c6e5883c9c6f4787a27a9831e02.setContent(html_de9dca16d0eee8de2748108f37d04a8d);
+            
+        
+
+        marker_81df310e0f84eb0b3e256d95446bd577.bindPopup(popup_bf637c6e5883c9c6f4787a27a9831e02)
+        ;
+
+        
+    
+    
+            var marker_7ce29a3cc369ec57bf04da2dcea7049d = L.marker(
+                [41.608635, 21.745275],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_47fd0a0cf527a3ff01f50c6757bf2b20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cff7cf3e492ff01f640580d4cc610f49 = $(`<div id="html_cff7cf3e492ff01f640580d4cc610f49" style="width: 100.0%; height: 100.0%;">Country: Macedonia [FYROM]<br>Sales: $74.00<br>Profit: $15.10</div>`)[0];
+                popup_47fd0a0cf527a3ff01f50c6757bf2b20.setContent(html_cff7cf3e492ff01f640580d4cc610f49);
+            
+        
+
+        marker_7ce29a3cc369ec57bf04da2dcea7049d.bindPopup(popup_47fd0a0cf527a3ff01f50c6757bf2b20)
+        ;
+
+        
+    
+    
+            var marker_7903cb9a60a0d7464afcc826761a4f67 = L.marker(
+                [42.708678, 19.37439],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_56faa638ad250ecdcc006dfbcce6da13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb4fef36048895ae85ff59b234e28c8a = $(`<div id="html_fb4fef36048895ae85ff59b234e28c8a" style="width: 100.0%; height: 100.0%;">Country: Montenegro<br>Sales: $422.00<br>Profit: $168.05</div>`)[0];
+                popup_56faa638ad250ecdcc006dfbcce6da13.setContent(html_fb4fef36048895ae85ff59b234e28c8a);
+            
+        
+
+        marker_7903cb9a60a0d7464afcc826761a4f67.bindPopup(popup_56faa638ad250ecdcc006dfbcce6da13)
+        ;
+
+        
+    
+    
+            var marker_e1e86e20d047f7b1fba367fc7211999b = L.marker(
+                [39.399872, -8.224454],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_0a8fe6490484ad79c8aed7c90a0ce1cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10966cd2151abef1a0d50bf0edb58a70 = $(`<div id="html_10966cd2151abef1a0d50bf0edb58a70" style="width: 100.0%; height: 100.0%;">Country: Portugal<br>Sales: $9138.00<br>Profit: $-1338.20</div>`)[0];
+                popup_0a8fe6490484ad79c8aed7c90a0ce1cb.setContent(html_10966cd2151abef1a0d50bf0edb58a70);
+            
+        
+
+        marker_e1e86e20d047f7b1fba367fc7211999b.bindPopup(popup_0a8fe6490484ad79c8aed7c90a0ce1cb)
+        ;
+
+        
+    
+    
+            var marker_9a675b6e8fffcbba8569e7058ddf1587 = L.marker(
+                [46.151241, 14.995463],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_54936c72efcdaf8aba9983c2dac38787 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e9a2435cc748f7d0210aef0a5521a5a = $(`<div id="html_2e9a2435cc748f7d0210aef0a5521a5a" style="width: 100.0%; height: 100.0%;">Country: Slovenia<br>Sales: $1012.00<br>Profit: $495.80</div>`)[0];
+                popup_54936c72efcdaf8aba9983c2dac38787.setContent(html_2e9a2435cc748f7d0210aef0a5521a5a);
+            
+        
+
+        marker_9a675b6e8fffcbba8569e7058ddf1587.bindPopup(popup_54936c72efcdaf8aba9983c2dac38787)
+        ;
+
+        
+    
+    
+            var marker_7391a0bde6a40df4c343c01016832593 = L.marker(
+                [40.463667, -3.74922],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_b6f9ebfcd2bb8091dfe89706a8f14dc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52aecd55484902bc6c08dc8abafea832 = $(`<div id="html_52aecd55484902bc6c08dc8abafea832" style="width: 100.0%; height: 100.0%;">Country: Spain<br>Sales: $104147.00<br>Profit: $28816.70</div>`)[0];
+                popup_b6f9ebfcd2bb8091dfe89706a8f14dc1.setContent(html_52aecd55484902bc6c08dc8abafea832);
+            
+        
+
+        marker_7391a0bde6a40df4c343c01016832593.bindPopup(popup_b6f9ebfcd2bb8091dfe89706a8f14dc1)
+        ;
+
+        
+    
+    
+            var marker_0787f22a882438f1af050b68261f8e9c = L.marker(
+                [37.09024, -95.712891],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_f5e194490ec1eb74bef81bc95d88f57b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9d727c3f17a1e9d800330fc17d0109d = $(`<div id="html_c9d727c3f17a1e9d800330fc17d0109d" style="width: 100.0%; height: 100.0%;">Country: United States<br>Sales: $211215.00<br>Profit: $34306.50</div>`)[0];
+                popup_f5e194490ec1eb74bef81bc95d88f57b.setContent(html_c9d727c3f17a1e9d800330fc17d0109d);
+            
+        
+
+        marker_0787f22a882438f1af050b68261f8e9c.bindPopup(popup_f5e194490ec1eb74bef81bc95d88f57b)
+        ;
+
+        
+    
+    
+            var marker_a34ea35c43d7433a005aa280eb71beb9 = L.marker(
+                [9.30769, 2.315834],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_5309d022e1d2134315ea50bd22b5c2fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea0b1f4950bc03dc5b0554989487038e = $(`<div id="html_ea0b1f4950bc03dc5b0554989487038e" style="width: 100.0%; height: 100.0%;">Country: Benin<br>Sales: $5462.00<br>Profit: $1422.95</div>`)[0];
+                popup_5309d022e1d2134315ea50bd22b5c2fa.setContent(html_ea0b1f4950bc03dc5b0554989487038e);
+            
+        
+
+        marker_a34ea35c43d7433a005aa280eb71beb9.bindPopup(popup_5309d022e1d2134315ea50bd22b5c2fa)
+        ;
+
+        
+    
+    
+            var marker_c1d8dc6ad917d2e60684a1fa6a1dde0c = L.marker(
+                [12.238333, -1.561593],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_82a7689654c163e9f7969530a27a5d7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eede28274a56721dd9e078a92b757e04 = $(`<div id="html_eede28274a56721dd9e078a92b757e04" style="width: 100.0%; height: 100.0%;">Country: Burkina Faso<br>Sales: $1044.00<br>Profit: $116.50</div>`)[0];
+                popup_82a7689654c163e9f7969530a27a5d7f.setContent(html_eede28274a56721dd9e078a92b757e04);
+            
+        
+
+        marker_c1d8dc6ad917d2e60684a1fa6a1dde0c.bindPopup(popup_82a7689654c163e9f7969530a27a5d7f)
+        ;
+
+        
+    
+    
+            var marker_89741ae915ddabda94271a7bd6f1734e = L.marker(
+                [7.539989, -5.54708],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_bedd3221119936b09708fecbea2836f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eb1c792a2d9488d6d7c17a04d7b37d3 = $(`<div id="html_1eb1c792a2d9488d6d7c17a04d7b37d3" style="width: 100.0%; height: 100.0%;">Country: Côte d'Ivoire<br>Sales: $10536.00<br>Profit: $3142.85</div>`)[0];
+                popup_bedd3221119936b09708fecbea2836f9.setContent(html_1eb1c792a2d9488d6d7c17a04d7b37d3);
+            
+        
+
+        marker_89741ae915ddabda94271a7bd6f1734e.bindPopup(popup_bedd3221119936b09708fecbea2836f9)
+        ;
+
+        
+    
+    
+            var marker_465c7b9b3c51436215515842f7de5a40 = L.marker(
+                [13.443182, -15.310139],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_deb74a70845f618caef02713d676c2c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8574353f484ed81d99f367c4d577bd8 = $(`<div id="html_a8574353f484ed81d99f367c4d577bd8" style="width: 100.0%; height: 100.0%;">Country: Gambia<br>Sales: $10.00<br>Profit: $5.00</div>`)[0];
+                popup_deb74a70845f618caef02713d676c2c6.setContent(html_a8574353f484ed81d99f367c4d577bd8);
+            
+        
+
+        marker_465c7b9b3c51436215515842f7de5a40.bindPopup(popup_deb74a70845f618caef02713d676c2c6)
+        ;
+
+        
+    
+    
+            var marker_b688752a42578cb04c45a6ea3ad75720 = L.marker(
+                [7.946527, -1.023194],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_52a025a7f529f58d46dca1f1c3c73486 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38660f600aafcddd3c981dcd2fa7e724 = $(`<div id="html_38660f600aafcddd3c981dcd2fa7e724" style="width: 100.0%; height: 100.0%;">Country: Ghana<br>Sales: $10273.00<br>Profit: $3283.05</div>`)[0];
+                popup_52a025a7f529f58d46dca1f1c3c73486.setContent(html_38660f600aafcddd3c981dcd2fa7e724);
+            
+        
+
+        marker_b688752a42578cb04c45a6ea3ad75720.bindPopup(popup_52a025a7f529f58d46dca1f1c3c73486)
+        ;
+
+        
+    
+    
+            var marker_fd1b1eabcde70248c06f4261fad74ab8 = L.marker(
+                [9.945587, -9.696645],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_bc51034c0e5b610ec7a8ed9eae1c991f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a78783abcdc714535b14614c03b46c9 = $(`<div id="html_0a78783abcdc714535b14614c03b46c9" style="width: 100.0%; height: 100.0%;">Country: Guinea<br>Sales: $1897.00<br>Profit: $341.90</div>`)[0];
+                popup_bc51034c0e5b610ec7a8ed9eae1c991f.setContent(html_0a78783abcdc714535b14614c03b46c9);
+            
+        
+
+        marker_fd1b1eabcde70248c06f4261fad74ab8.bindPopup(popup_bc51034c0e5b610ec7a8ed9eae1c991f)
+        ;
+
+        
+    
+    
+            var marker_732962939bf5a6988a96df59f6b6aa0c = L.marker(
+                [11.803749, -15.180413],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_b3c55a72749aca79ba19ec695473b0db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c95b7377c95de57ac4738fea0924aca2 = $(`<div id="html_c95b7377c95de57ac4738fea0924aca2" style="width: 100.0%; height: 100.0%;">Country: Guinea-Bissau<br>Sales: $374.00<br>Profit: $96.05</div>`)[0];
+                popup_b3c55a72749aca79ba19ec695473b0db.setContent(html_c95b7377c95de57ac4738fea0924aca2);
+            
+        
+
+        marker_732962939bf5a6988a96df59f6b6aa0c.bindPopup(popup_b3c55a72749aca79ba19ec695473b0db)
+        ;
+
+        
+    
+    
+            var marker_5a645d7bbfb271999b7d674fe6a078d6 = L.marker(
+                [6.428055, -9.429499],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_a742168a6a6cfa7c3136a3e4b5fe6eaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_daaffc67d5e32acea121735fb5ffc7de = $(`<div id="html_daaffc67d5e32acea121735fb5ffc7de" style="width: 100.0%; height: 100.0%;">Country: Liberia<br>Sales: $890.00<br>Profit: $233.10</div>`)[0];
+                popup_a742168a6a6cfa7c3136a3e4b5fe6eaa.setContent(html_daaffc67d5e32acea121735fb5ffc7de);
+            
+        
+
+        marker_5a645d7bbfb271999b7d674fe6a078d6.bindPopup(popup_a742168a6a6cfa7c3136a3e4b5fe6eaa)
+        ;
+
+        
+    
+    
+            var marker_c7ab97f78851ed40311bab48a698158f = L.marker(
+                [17.570692, -3.996166],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_e53a4d41234a4f2f8de897d73a67ba88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_039ea2e52995703c39ceeb0f2e1eefaa = $(`<div id="html_039ea2e52995703c39ceeb0f2e1eefaa" style="width: 100.0%; height: 100.0%;">Country: Mali<br>Sales: $1824.00<br>Profit: $555.00</div>`)[0];
+                popup_e53a4d41234a4f2f8de897d73a67ba88.setContent(html_039ea2e52995703c39ceeb0f2e1eefaa);
+            
+        
+
+        marker_c7ab97f78851ed40311bab48a698158f.bindPopup(popup_e53a4d41234a4f2f8de897d73a67ba88)
+        ;
+
+        
+    
+    
+            var marker_d603bd6d055c705cf065647f91b4dbaf = L.marker(
+                [21.00789, -10.940835],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_133ba4501f1aa4180ee773b026339004 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_592d60434b711bf0c52a8dca92bdbc76 = $(`<div id="html_592d60434b711bf0c52a8dca92bdbc76" style="width: 100.0%; height: 100.0%;">Country: Mauritania<br>Sales: $1086.00<br>Profit: $282.40</div>`)[0];
+                popup_133ba4501f1aa4180ee773b026339004.setContent(html_592d60434b711bf0c52a8dca92bdbc76);
+            
+        
+
+        marker_d603bd6d055c705cf065647f91b4dbaf.bindPopup(popup_133ba4501f1aa4180ee773b026339004)
+        ;
+
+        
+    
+    
+            var marker_2b5ec60e7dc0075de18eb544a105ff2e = L.marker(
+                [17.607789, 8.081666],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_6e6a1117f57679570778a854fda30af9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5729a52a306ea5462b4764f0e34d1ce = $(`<div id="html_b5729a52a306ea5462b4764f0e34d1ce" style="width: 100.0%; height: 100.0%;">Country: Niger<br>Sales: $2472.00<br>Profit: $629.60</div>`)[0];
+                popup_6e6a1117f57679570778a854fda30af9.setContent(html_b5729a52a306ea5462b4764f0e34d1ce);
+            
+        
+
+        marker_2b5ec60e7dc0075de18eb544a105ff2e.bindPopup(popup_6e6a1117f57679570778a854fda30af9)
+        ;
+
+        
+    
+    
+            var marker_157959f1108879e9314325f13b754e6b = L.marker(
+                [9.081999, 8.675277],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_a6415796e538648b55f9bfebc06ce3f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e708d584887b73e617b43a8263dc34f9 = $(`<div id="html_e708d584887b73e617b43a8263dc34f9" style="width: 100.0%; height: 100.0%;">Country: Nigeria<br>Sales: $107011.00<br>Profit: $-40429.85</div>`)[0];
+                popup_a6415796e538648b55f9bfebc06ce3f7.setContent(html_e708d584887b73e617b43a8263dc34f9);
+            
+        
+
+        marker_157959f1108879e9314325f13b754e6b.bindPopup(popup_a6415796e538648b55f9bfebc06ce3f7)
+        ;
+
+        
+    
+    
+            var marker_41e5bd3040e7366a92f04a887574cbd6 = L.marker(
+                [14.497401, -14.452362],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_51eacc53b61ce1c572c170b6264ce4de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bde9dc87a5679040b6467976d93bd8b3 = $(`<div id="html_bde9dc87a5679040b6467976d93bd8b3" style="width: 100.0%; height: 100.0%;">Country: Senegal<br>Sales: $10841.00<br>Profit: $3402.45</div>`)[0];
+                popup_51eacc53b61ce1c572c170b6264ce4de.setContent(html_bde9dc87a5679040b6467976d93bd8b3);
+            
+        
+
+        marker_41e5bd3040e7366a92f04a887574cbd6.bindPopup(popup_51eacc53b61ce1c572c170b6264ce4de)
+        ;
+
+        
+    
+    
+            var marker_3f5bc834bb3ae7149d944f50a749d982 = L.marker(
+                [8.460555, -11.779889],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_4408f3dbf149b63d5bc4559a86e7045c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce58e990286fa068f05a386ec548c234 = $(`<div id="html_ce58e990286fa068f05a386ec548c234" style="width: 100.0%; height: 100.0%;">Country: Sierra Leone<br>Sales: $1197.00<br>Profit: $370.55</div>`)[0];
+                popup_4408f3dbf149b63d5bc4559a86e7045c.setContent(html_ce58e990286fa068f05a386ec548c234);
+            
+        
+
+        marker_3f5bc834bb3ae7149d944f50a749d982.bindPopup(popup_4408f3dbf149b63d5bc4559a86e7045c)
+        ;
+
+        
+    
+    
+            var marker_4ee8e789c2bf000b06a2177a3414c5e4 = L.marker(
+                [8.619543, 0.824782],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_8cfef277775b0a4bb1264daaac4c11a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec368fef6478630835c27523b14c3056 = $(`<div id="html_ec368fef6478630835c27523b14c3056" style="width: 100.0%; height: 100.0%;">Country: Togo<br>Sales: $6249.00<br>Profit: $1434.60</div>`)[0];
+                popup_8cfef277775b0a4bb1264daaac4c11a2.setContent(html_ec368fef6478630835c27523b14c3056);
+            
+        
+
+        marker_4ee8e789c2bf000b06a2177a3414c5e4.bindPopup(popup_8cfef277775b0a4bb1264daaac4c11a2)
+        ;
+
+        
+    
+    
+            var marker_f545ae6ff5afabb8d7ab540eae12edeb = L.marker(
+                [24.215527, -12.885834],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_7e94bd6b02a64e53232107c7323bf4e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_998cd566308d51657b2a15fedcc68a67 = $(`<div id="html_998cd566308d51657b2a15fedcc68a67" style="width: 100.0%; height: 100.0%;">Country: Western Sahara<br>Sales: $64.00<br>Profit: $18.70</div>`)[0];
+                popup_7e94bd6b02a64e53232107c7323bf4e8.setContent(html_998cd566308d51657b2a15fedcc68a67);
+            
+        
+
+        marker_f545ae6ff5afabb8d7ab540eae12edeb.bindPopup(popup_7e94bd6b02a64e53232107c7323bf4e8)
+        ;
+
+        
+    
+    
+            var marker_f4cd8e689bb0d83b262588277aca4219 = L.marker(
+                [40.069099, 45.038189],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_c046998f00fa3abd502ff14e4e93657d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d09ab345bb3cd6e49b5947c1b15f3d9c = $(`<div id="html_d09ab345bb3cd6e49b5947c1b15f3d9c" style="width: 100.0%; height: 100.0%;">Country: Armenia<br>Sales: $34.00<br>Profit: $15.60</div>`)[0];
+                popup_c046998f00fa3abd502ff14e4e93657d.setContent(html_d09ab345bb3cd6e49b5947c1b15f3d9c);
+            
+        
+
+        marker_f4cd8e689bb0d83b262588277aca4219.bindPopup(popup_c046998f00fa3abd502ff14e4e93657d)
+        ;
+
+        
+    
+    
+            var marker_d098ede7e525db902e4701252b3d8223 = L.marker(
+                [40.143105, 47.576927],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_2b81e923c6f4bab4569f81010df45523 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecca1ad10bb8e9532689e16ccbae17e5 = $(`<div id="html_ecca1ad10bb8e9532689e16ccbae17e5" style="width: 100.0%; height: 100.0%;">Country: Azerbaijan<br>Sales: $3533.00<br>Profit: $975.20</div>`)[0];
+                popup_2b81e923c6f4bab4569f81010df45523.setContent(html_ecca1ad10bb8e9532689e16ccbae17e5);
+            
+        
+
+        marker_d098ede7e525db902e4701252b3d8223.bindPopup(popup_2b81e923c6f4bab4569f81010df45523)
+        ;
+
+        
+    
+    
+            var marker_b7ce2374126e97eebe8bdab41622053e = L.marker(
+                [25.930414, 50.637772],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_566cde519e855c9de5de813486671aa9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aa1dfb516ed3001be303246e52e0752 = $(`<div id="html_0aa1dfb516ed3001be303246e52e0752" style="width: 100.0%; height: 100.0%;">Country: Bahrain<br>Sales: $732.00<br>Profit: $106.80</div>`)[0];
+                popup_566cde519e855c9de5de813486671aa9.setContent(html_0aa1dfb516ed3001be303246e52e0752);
+            
+        
+
+        marker_b7ce2374126e97eebe8bdab41622053e.bindPopup(popup_566cde519e855c9de5de813486671aa9)
+        ;
+
+        
+    
+    
+            var marker_729563c81895abc8378891cff5556f4d = L.marker(
+                [42.315407, 43.356892],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_4a9731e17628afe5e048db82b3c8145e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12ef855dc87133065413f5302f40a5dd = $(`<div id="html_12ef855dc87133065413f5302f40a5dd" style="width: 100.0%; height: 100.0%;">Country: Georgia<br>Sales: $2941.00<br>Profit: $1077.30</div>`)[0];
+                popup_4a9731e17628afe5e048db82b3c8145e.setContent(html_12ef855dc87133065413f5302f40a5dd);
+            
+        
+
+        marker_729563c81895abc8378891cff5556f4d.bindPopup(popup_4a9731e17628afe5e048db82b3c8145e)
+        ;
+
+        
+    
+    
+            var marker_833fecfe66816f6659d53f3858a964d8 = L.marker(
+                [33.223191, 43.679291],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_0120dd6ece01db7b33e156b6487152bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9124ecfd04153cc2d2296fb233c96e69 = $(`<div id="html_9124ecfd04153cc2d2296fb233c96e69" style="width: 100.0%; height: 100.0%;">Country: Iraq<br>Sales: $41863.00<br>Profit: $15427.15</div>`)[0];
+                popup_0120dd6ece01db7b33e156b6487152bb.setContent(html_9124ecfd04153cc2d2296fb233c96e69);
+            
+        
+
+        marker_833fecfe66816f6659d53f3858a964d8.bindPopup(popup_0120dd6ece01db7b33e156b6487152bb)
+        ;
+
+        
+    
+    
+            var marker_14d8452a5494e26a95d7d6d3d64ac625 = L.marker(
+                [31.046051, 34.851612],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_c2b05a5fe9a7e63af77ac0c01ac983b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93d96d3067b64ac54ec8c59d4634f6f9 = $(`<div id="html_93d96d3067b64ac54ec8c59d4634f6f9" style="width: 100.0%; height: 100.0%;">Country: Israel<br>Sales: $10247.00<br>Profit: $3233.10</div>`)[0];
+                popup_c2b05a5fe9a7e63af77ac0c01ac983b2.setContent(html_93d96d3067b64ac54ec8c59d4634f6f9);
+            
+        
+
+        marker_14d8452a5494e26a95d7d6d3d64ac625.bindPopup(popup_c2b05a5fe9a7e63af77ac0c01ac983b2)
+        ;
+
+        
+    
+    
+            var marker_77647a92123c74b5df9ca3a561955e88 = L.marker(
+                [30.585164, 36.238414],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_ff03f1bc4c0999e7bc5321c7a314ba8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3b21401ee2c97c3434ad8cc2d7fe4bd = $(`<div id="html_c3b21401ee2c97c3434ad8cc2d7fe4bd" style="width: 100.0%; height: 100.0%;">Country: Jordan<br>Sales: $4374.00<br>Profit: $1280.40</div>`)[0];
+                popup_ff03f1bc4c0999e7bc5321c7a314ba8f.setContent(html_c3b21401ee2c97c3434ad8cc2d7fe4bd);
+            
+        
+
+        marker_77647a92123c74b5df9ca3a561955e88.bindPopup(popup_ff03f1bc4c0999e7bc5321c7a314ba8f)
+        ;
+
+        
+    
+    
+            var marker_330e026bf190fae1fa823e7fade18f4b = L.marker(
+                [29.31166, 47.481766],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_48c6727b3a9b9fbbb9bae29cbaf3c985 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ee68ba1a228d46394ef0c40dbd4f739 = $(`<div id="html_3ee68ba1a228d46394ef0c40dbd4f739" style="width: 100.0%; height: 100.0%;">Country: Kuwait<br>Sales: $228.00<br>Profit: $91.20</div>`)[0];
+                popup_48c6727b3a9b9fbbb9bae29cbaf3c985.setContent(html_3ee68ba1a228d46394ef0c40dbd4f739);
+            
+        
+
+        marker_330e026bf190fae1fa823e7fade18f4b.bindPopup(popup_48c6727b3a9b9fbbb9bae29cbaf3c985)
+        ;
+
+        
+    
+    
+            var marker_9242fd57bad3876681374f89d3a3552d = L.marker(
+                [33.854721, 35.862285],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_fab4dd262163c4a8a73643218e5b0a25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb90da7beca052be16e0894b5aa9eed9 = $(`<div id="html_cb90da7beca052be16e0894b5aa9eed9" style="width: 100.0%; height: 100.0%;">Country: Lebanon<br>Sales: $1282.00<br>Profit: $271.30</div>`)[0];
+                popup_fab4dd262163c4a8a73643218e5b0a25.setContent(html_cb90da7beca052be16e0894b5aa9eed9);
+            
+        
+
+        marker_9242fd57bad3876681374f89d3a3552d.bindPopup(popup_fab4dd262163c4a8a73643218e5b0a25)
+        ;
+
+        
+    
+    
+            var marker_81961639b46014651a6d6d9c3db3a148 = L.marker(
+                [21.512583, 55.923255],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_340d98a1f041c843fbd5f9bd18122331 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c3c7cdbae71bfd40eb2844a8d7ce199 = $(`<div id="html_2c3c7cdbae71bfd40eb2844a8d7ce199" style="width: 100.0%; height: 100.0%;">Country: Oman<br>Sales: $51.00<br>Profit: $13.95</div>`)[0];
+                popup_340d98a1f041c843fbd5f9bd18122331.setContent(html_2c3c7cdbae71bfd40eb2844a8d7ce199);
+            
+        
+
+        marker_81961639b46014651a6d6d9c3db3a148.bindPopup(popup_340d98a1f041c843fbd5f9bd18122331)
+        ;
+
+        
+    
+    
+            var marker_c719a69213b6b2e10eac2c2c552257da = L.marker(
+                [25.354826, 51.183884],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_6ede322e34820a6d1a308bed1efed9b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf51f8991c8da6bbadeca22001edb150 = $(`<div id="html_cf51f8991c8da6bbadeca22001edb150" style="width: 100.0%; height: 100.0%;">Country: Qatar<br>Sales: $1861.00<br>Profit: $616.90</div>`)[0];
+                popup_6ede322e34820a6d1a308bed1efed9b1.setContent(html_cf51f8991c8da6bbadeca22001edb150);
+            
+        
+
+        marker_c719a69213b6b2e10eac2c2c552257da.bindPopup(popup_6ede322e34820a6d1a308bed1efed9b1)
+        ;
+
+        
+    
+    
+            var marker_903b97c76dd137472eb1d93373c90b59 = L.marker(
+                [23.885942, 45.079162],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_2ddb3514a45ced869adf6319f78af2bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_199cda244987eebc6ba5bf4fb38dce2d = $(`<div id="html_199cda244987eebc6ba5bf4fb38dce2d" style="width: 100.0%; height: 100.0%;">Country: Saudi Arabia<br>Sales: $37221.00<br>Profit: $10955.90</div>`)[0];
+                popup_2ddb3514a45ced869adf6319f78af2bd.setContent(html_199cda244987eebc6ba5bf4fb38dce2d);
+            
+        
+
+        marker_903b97c76dd137472eb1d93373c90b59.bindPopup(popup_2ddb3514a45ced869adf6319f78af2bd)
+        ;
+
+        
+    
+    
+            var marker_9039daef2e1512c74c8ed8d41fd91b87 = L.marker(
+                [34.802075, 38.996815],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_297e0f5ea80c6bb17b2af883d1424186 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d00c80faa21bc6b19a3328d3c6d641a = $(`<div id="html_0d00c80faa21bc6b19a3328d3c6d641a" style="width: 100.0%; height: 100.0%;">Country: Syria<br>Sales: $2912.00<br>Profit: $156.95</div>`)[0];
+                popup_297e0f5ea80c6bb17b2af883d1424186.setContent(html_0d00c80faa21bc6b19a3328d3c6d641a);
+            
+        
+
+        marker_9039daef2e1512c74c8ed8d41fd91b87.bindPopup(popup_297e0f5ea80c6bb17b2af883d1424186)
+        ;
+
+        
+    
+    
+            var marker_f3352a64440f0e741c121d6b8ec2ce5a = L.marker(
+                [38.963745, 35.243322],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_bc3f0902efe89dd28e71ec9fdd94c0fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b24b29b774d307023147ce5dfa713feb = $(`<div id="html_b24b29b774d307023147ce5dfa713feb" style="width: 100.0%; height: 100.0%;">Country: Turkey<br>Sales: $164789.00<br>Profit: $-47834.40</div>`)[0];
+                popup_bc3f0902efe89dd28e71ec9fdd94c0fd.setContent(html_b24b29b774d307023147ce5dfa713feb);
+            
+        
+
+        marker_f3352a64440f0e741c121d6b8ec2ce5a.bindPopup(popup_bc3f0902efe89dd28e71ec9fdd94c0fd)
+        ;
+
+        
+    
+    
+            var marker_ebe0210661a63d3a9a41036e4c3ec2dc = L.marker(
+                [23.424076, 53.847818],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_db4afe3db9753b67e06c7eb28d54aca9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03acb5405ca7e748c77b0e0a8b751546 = $(`<div id="html_03acb5405ca7e748c77b0e0a8b751546" style="width: 100.0%; height: 100.0%;">Country: United Arab Emirates<br>Sales: $733.00<br>Profit: $-316.00</div>`)[0];
+                popup_db4afe3db9753b67e06c7eb28d54aca9.setContent(html_03acb5405ca7e748c77b0e0a8b751546);
+            
+        
+
+        marker_ebe0210661a63d3a9a41036e4c3ec2dc.bindPopup(popup_db4afe3db9753b67e06c7eb28d54aca9)
+        ;
+
+        
+    
+    
+            var marker_8ad61ea8e46662740e19a7bc2e6d7026 = L.marker(
+                [15.552727, 48.516388],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_6cbc3a102e940ddf134ff3cc60d11d7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_605722ea5de7c871de16d1aec13a6393 = $(`<div id="html_605722ea5de7c871de16d1aec13a6393" style="width: 100.0%; height: 100.0%;">Country: Yemen<br>Sales: $2653.00<br>Profit: $-637.85</div>`)[0];
+                popup_6cbc3a102e940ddf134ff3cc60d11d7a.setContent(html_605722ea5de7c871de16d1aec13a6393);
+            
+        
+
+        marker_8ad61ea8e46662740e19a7bc2e6d7026.bindPopup(popup_6cbc3a102e940ddf134ff3cc60d11d7a)
+        ;
+
+        
+    
+    
+            var marker_c46610b58bf85a54c59c9f8678682f4e = L.marker(
+                [47.516231, 14.550072],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_dc341023f5580a9b347b08c3035862b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0821d117e5c83cf82fc75bec4200d26a = $(`<div id="html_0821d117e5c83cf82fc75bec4200d26a" style="width: 100.0%; height: 100.0%;">Country: Austria<br>Sales: $42762.00<br>Profit: $13077.70</div>`)[0];
+                popup_dc341023f5580a9b347b08c3035862b1.setContent(html_0821d117e5c83cf82fc75bec4200d26a);
+            
+        
+
+        marker_c46610b58bf85a54c59c9f8678682f4e.bindPopup(popup_dc341023f5580a9b347b08c3035862b1)
+        ;
+
+        
+    
+    
+            var marker_b15a1576b879d031890e53aa1afd6514 = L.marker(
+                [50.503887, 4.469936],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_40fb33585c9ab8ab78712aadc4235527 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0279fafeabd3f82ba11f494d8571a48 = $(`<div id="html_e0279fafeabd3f82ba11f494d8571a48" style="width: 100.0%; height: 100.0%;">Country: Belgium<br>Sales: $21081.00<br>Profit: $6256.95</div>`)[0];
+                popup_40fb33585c9ab8ab78712aadc4235527.setContent(html_e0279fafeabd3f82ba11f494d8571a48);
+            
+        
+
+        marker_b15a1576b879d031890e53aa1afd6514.bindPopup(popup_40fb33585c9ab8ab78712aadc4235527)
+        ;
+
+        
+    
+    
+            var marker_8eba456c300ab21c240945195baeefa0 = L.marker(
+                [46.227638, 2.213749],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_671946bdd126b35c7d3f5287014c3a84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee7bb57d0c85ad83db3d661cf4db0080 = $(`<div id="html_ee7bb57d0c85ad83db3d661cf4db0080" style="width: 100.0%; height: 100.0%;">Country: France<br>Sales: $374791.00<br>Profit: $93483.10</div>`)[0];
+                popup_671946bdd126b35c7d3f5287014c3a84.setContent(html_ee7bb57d0c85ad83db3d661cf4db0080);
+            
+        
+
+        marker_8eba456c300ab21c240945195baeefa0.bindPopup(popup_671946bdd126b35c7d3f5287014c3a84)
+        ;
+
+        
+    
+    
+            var marker_70f972698b66bcadabd3719e70e2e8c6 = L.marker(
+                [51.165691, 10.451526],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_7f5e81d5fd87f0547276088193669578 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_033d26c042ff5081daceba5e541d2201 = $(`<div id="html_033d26c042ff5081daceba5e541d2201" style="width: 100.0%; height: 100.0%;">Country: Germany<br>Sales: $257059.00<br>Profit: $63342.10</div>`)[0];
+                popup_7f5e81d5fd87f0547276088193669578.setContent(html_033d26c042ff5081daceba5e541d2201);
+            
+        
+
+        marker_70f972698b66bcadabd3719e70e2e8c6.bindPopup(popup_7f5e81d5fd87f0547276088193669578)
+        ;
+
+        
+    
+    
+            var marker_ec4654129375b21b299f52096241de08 = L.marker(
+                [49.815273, 6.129583],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_91a8362fb2875c0fb18422faae330010 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b66f67146f8ff240a5ef03813df1d8b = $(`<div id="html_8b66f67146f8ff240a5ef03813df1d8b" style="width: 100.0%; height: 100.0%;">Country: Luxembourg<br>Sales: $38.00<br>Profit: $2.55</div>`)[0];
+                popup_91a8362fb2875c0fb18422faae330010.setContent(html_8b66f67146f8ff240a5ef03813df1d8b);
+            
+        
+
+        marker_ec4654129375b21b299f52096241de08.bindPopup(popup_91a8362fb2875c0fb18422faae330010)
+        ;
+
+        
+    
+    
+            var marker_8ba6f67f1c4a43783e6bd13de7a4dc70 = L.marker(
+                [52.132633, 5.291266],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_21e1b2f7468529bf64b38678a6405b2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0739dd493acd8b76cb03ba7560ce21f4 = $(`<div id="html_0739dd493acd8b76cb03ba7560ce21f4" style="width: 100.0%; height: 100.0%;">Country: Netherlands<br>Sales: $56703.00<br>Profit: $-8413.20</div>`)[0];
+                popup_21e1b2f7468529bf64b38678a6405b2c.setContent(html_0739dd493acd8b76cb03ba7560ce21f4);
+            
+        
+
+        marker_8ba6f67f1c4a43783e6bd13de7a4dc70.bindPopup(popup_21e1b2f7468529bf64b38678a6405b2c)
+        ;
+
+        
+    
+    
+            var marker_33ded7c0f547472be6389d54270568fd = L.marker(
+                [46.818188, 8.227512],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_8d04fdcdbfac9a92b80b625952829285 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f5240d30f58f23bc6a45bc0a2096e12 = $(`<div id="html_3f5240d30f58f23bc6a45bc0a2096e12" style="width: 100.0%; height: 100.0%;">Country: Switzerland<br>Sales: $10421.00<br>Profit: $3764.10</div>`)[0];
+                popup_8d04fdcdbfac9a92b80b625952829285.setContent(html_3f5240d30f58f23bc6a45bc0a2096e12);
+            
+        
+
+        marker_33ded7c0f547472be6389d54270568fd.bindPopup(popup_8d04fdcdbfac9a92b80b625952829285)
+        ;
+
+        
+    
+    
+            var marker_7b8f9a9838e8481c029b4cb9059e05ef = L.marker(
+                [37.09024, -95.712891],
+                {}
+            ).addTo(map_9e16792adc2a6a855316b52788a08ae2);
+        
+    
+        var popup_5fd06cccff0a84c5adc555878550824f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96fe0789d2442d8f5fd734e9c8e03f07 = $(`<div id="html_96fe0789d2442d8f5fd734e9c8e03f07" style="width: 100.0%; height: 100.0%;">Country: United States<br>Sales: $444113.00<br>Profit: $86223.90</div>`)[0];
+                popup_5fd06cccff0a84c5adc555878550824f.setContent(html_96fe0789d2442d8f5fd734e9c8e03f07);
+            
+        
+
+        marker_7b8f9a9838e8481c029b4cb9059e05ef.bindPopup(popup_5fd06cccff0a84c5adc555878550824f)
+        ;
+
+        
+    
+</script>
+</html>

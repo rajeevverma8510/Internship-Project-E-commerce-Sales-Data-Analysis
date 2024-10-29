@@ -1,0 +1,11 @@
+Step 1: The dataset is loaded using Pandas from an Excel file.
+Step 2: The Order Date column is converted into a datetime format to ensure proper time-based analysis if needed.
+Step 3: The dataset is grouped by Region and Country, calculating total sales, total profit, and order count for each group.
+Step 4: A bar plot is generated using Seaborn to visualize total sales by region.
+Step 5: A bar plot is generated using Seaborn to visualize total profit by region.
+Step 6: A map visualization is created using Folium, where markers are placed on the map to represent countries. Each marker shows the country’s total sales and profit.
+Step 7: An interactive choropleth map is generated using Plotly to visualize the sales across countries.
+Output:
+Sales by Region and Profit by Region (Bar charts)
+Sales and Profit displayed on a world map (Folium)
+Interactive Choropleth Map of Sales across countries (Plotly)
